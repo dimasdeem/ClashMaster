@@ -1,0 +1,415 @@
+---
+port: 7890
+socks-port: 7891
+redir-port: 7892
+tproxy-port: 7895
+mixed-port: 7893
+allow-lan: true
+mode: script
+log-level: info
+ipv6: false
+external-controller: 0.0.0.0:9090
+external-ui: "/usr/share/openclash/dashboard"
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: fake-ip
+  listen: 127.0.0.1:7874
+  default-nameserver:
+  - 114.114.114.114
+  - 119.29.29.29
+  - 8.8.8.8
+  - 8.8.4.4
+  - 1.1.1.1
+  - 1.0.0.1
+  - 192.168.8.1
+  nameserver:
+  - 192.168.8.1
+  - dhcp://"eth1"
+  fallback:
+  - https://cloudflare-dns.com/dns-query
+  - https://dns.google/dns-query
+  - https://1.1.1.1/dns-query
+  - tls://8.8.8.8:853
+  - tls://dns.rubyfish.cn:853
+  - https://1.1.1.1/dns-query
+  fallback-filter:
+    geoip: true
+    ipcidr:
+    - 0.0.0.0/8
+    - 10.0.0.0/8
+    - 100.64.0.0/10
+    - 127.0.0.0/8
+    - 169.254.0.0/16
+    - 172.16.0.0/12
+    - 192.0.0.0/24
+    - 192.0.2.0/24
+    - 192.88.99.0/24
+    - 192.168.0.0/16
+    - 198.18.0.0/15
+    - 198.51.100.0/24
+    - 203.0.113.0/24
+    - 224.0.0.0/4
+    - 240.0.0.0/4
+    - 255.255.255.255/32
+    domain:
+    - "+.google.com"
+    - "+.facebook.com"
+    - "+.youtube.com"
+    - "+.githubusercontent.com"
+  fake-ip-filter:
+  - "*.lan"
+  - time.windows.com
+  - time.nist.gov
+  - time.apple.com
+  - time.asia.apple.com
+  - "*.ntp.org.cn"
+  - "*.openwrt.pool.ntp.org"
+  - time1.cloud.tencent.com
+  - time.ustc.edu.cn
+  - pool.ntp.org
+  - ntp.ubuntu.com
+  - ntp.aliyun.com
+  - ntp1.aliyun.com
+  - ntp2.aliyun.com
+  - ntp3.aliyun.com
+  - ntp4.aliyun.com
+  - ntp5.aliyun.com
+  - ntp6.aliyun.com
+  - ntp7.aliyun.com
+  - time1.aliyun.com
+  - time2.aliyun.com
+  - time3.aliyun.com
+  - time4.aliyun.com
+  - time5.aliyun.com
+  - time6.aliyun.com
+  - time7.aliyun.com
+  - "*.time.edu.cn"
+  - time1.apple.com
+  - time2.apple.com
+  - time3.apple.com
+  - time4.apple.com
+  - time5.apple.com
+  - time6.apple.com
+  - time7.apple.com
+  - time1.google.com
+  - time2.google.com
+  - time3.google.com
+  - time4.google.com
+  - music.163.com
+  - "*.music.163.com"
+  - "*.126.net"
+  - musicapi.taihe.com
+  - music.taihe.com
+  - songsearch.kugou.com
+  - trackercdn.kugou.com
+  - "*.kuwo.cn"
+  - api-jooxtt.sanook.com
+  - api.joox.com
+  - joox.com
+  - y.qq.com
+  - "*.y.qq.com"
+  - streamoc.music.tc.qq.com
+  - mobileoc.music.tc.qq.com
+  - isure.stream.qqmusic.qq.com
+  - dl.stream.qqmusic.qq.com
+  - aqqmusic.tc.qq.com
+  - amobile.music.tc.qq.com
+  - "*.xiami.com"
+  - "*.music.migu.cn"
+  - music.migu.cn
+  - "*.msftconnecttest.com"
+  - "*.msftncsi.com"
+  - localhost.ptlogin2.qq.com
+  - "+.srv.nintendo.net"
+  - "+.stun.playstation.net"
+  - xbox.*.microsoft.com
+  - "+.xboxlive.com"
+  - proxy.golang.org
+  - stun..
+  - stun...*
+  - heartbeat.belkin.com
+  - "*.linksys.com"
+  - "*.linksyssmartwifi.com"
+  - "+.battlenet.com.cn"
+  fake-ip-range: 198.18.0.1/16
+proxy-providers:
+  newmaster:
+    type: file
+    path: "./proxy_provider/newmaster.yaml"
+    health-check:
+      enable: true
+      interval: 99
+      lazy: true
+      url: http://www.gstatic.com/generate_204
+proxy-groups:
+- name: NEWMASTER
+  type: select
+  tolerance: 99
+  use:
+  - newmaster
+rule-providers:
+  Applemaster:
+    type: file
+    behavior: classical
+    path: "./rule_provider/applemaster.yaml"
+  Browsermaster:
+    type: file
+    behavior: classical
+    path: "./rule_provider/browsermaster.yaml"
+  Callofdutymaster:
+    type: file
+    behavior: classical
+    path: "./rule_provider/callofdutymaster.yaml"
+  Deezermaster:
+    type: file
+    behavior: classical
+    path: "./rule_provider/deezermaster.yaml"
+  Disneymaster:
+    type: file
+    behavior: classical
+    path: "./rule_provider/disneymaster.yaml"
+  Facebookmaster:
+    type: file
+    behavior: classical
+    path: "./rule_provider/facebookmaster.yaml"
+  Garenamaster:
+    type: file
+    behavior: classical
+    path: "./rule_provider/garenamaster.yaml"
+  Iklanmaster:
+    type: file
+    behavior: classical
+    path: "./rule_provider/iklanmaster.yaml"
+  Instagrammaster:
+    type: file
+    behavior: classical
+    path: "./rule_provider/instagrammaster.yaml"
+  LAN:
+    type: file
+    behavior: classical
+    path: "./rule_provider/LAN.yaml"
+  Langitmusikmaster:
+    type: file
+    behavior: classical
+    path: "./rule_provider/langitmusikmaster.yaml"
+  Mobilegendsmaster:
+    type: file
+    behavior: classical
+    path: "./rule_provider/mlmaster.yaml"
+  Molamaster:
+    type: file
+    behavior: classical
+    path: "./rule_provider/molamaster.yaml"
+  Maxtreammaster:
+    type: file
+    behavior: classical
+    path: "./rule_provider/maxtreammaster.yaml"
+  Netflixmaster:
+    type: file
+    behavior: classical
+    path: "./rule_provider/netflixmaster.yaml"
+  Nimomaster:
+    type: file
+    behavior: classical
+    path: "./rule_provider/nimomaster.yaml"
+  Onlineshopmaster:
+    type: file
+    behavior: classical
+    path: "./rule_provider/onlineshopmaster.yaml"
+  Pubgmaster:
+    type: file
+    behavior: classical
+    path: "./rule_provider/pubgmaster.yaml"
+  Ressomaster:
+    type: file
+    behavior: classical
+    path: "./rule_provider/ressomaster.yaml"
+  Robloxmaster:
+    type: file
+    behavior: classical
+    path: "./rule_provider/robloxmaster.yaml"
+  Rctiplusmaster:
+    type: file
+    behavior: classical
+    path: "./rule_provider/rctiplusmaster.yaml"
+  Restreammaster:
+    type: file
+    behavior: classical
+    path: "./rule_provider/restreammaster.yaml"
+  Smulemaster:
+    type: file
+    behavior: classical
+    path: "./rule_provider/smulemaster.yaml"
+  Soundcloudmaster:
+    type: file
+    behavior: classical
+    path: "./rule_provider/soundcloudmaster.yaml"
+  Starmakermaster:
+    type: file
+    behavior: classical
+    path: "./rule_provider/starmakermaster.yaml"
+  Spotifymaster:
+    type: file
+    behavior: classical
+    path: "./rule_provider/spotifymaster.yaml"
+  Speedtestmaster:
+    type: file
+    behavior: classical
+    path: "./rule_provider/speedtestmaster.yaml"
+  Tiktokmaster:
+    type: file
+    behavior: classical
+    path: "./rule_provider/tiktokmaster.yaml"
+  Twittermaster:
+    type: file
+    behavior: classical
+    path: "./rule_provider/twittermaster.yaml"
+  Universitasmaster:
+    type: file
+    behavior: classical
+    path: "./rule_provider/universitasmaster.yaml"
+  Vidiomaster:
+    type: file
+    behavior: classical
+    path: "./rule_provider/vidiomaster.yaml"
+  Wesingmaster:
+    type: file
+    behavior: classical
+    path: "./rule_provider/wesingmaster.yaml"
+  Whatsappmaster:
+    type: file
+    behavior: classical
+    path: "./rule_provider/whatsappmaster.yaml"
+  Youtubemaster:
+    type: file
+    behavior: classical
+    path: "./rule_provider/youtubemaster.yaml"
+  Zoommaster:
+    type: file
+    behavior: classical
+    path: "./rule_provider/zoommaster.yaml"
+script:
+  code: |
+    def main(ctx, metadata):
+        ruleset_action = {"Iklanmaster": "REJECT",
+            "LAN": "DIRECT",
+            "Instagrammaster": "DIRECT",
+            "Tiktokmaster": "DIRECT",
+            "Whatsappmaster": "DIRECT",
+            "Deezermaster": "DIRECT",
+            "Langitmusikmaster": "DIRECT",
+            "Mobilegendsmaster": "DIRECT",
+            "Ressomaster": "DIRECT",
+            "Smulemaster": "DIRECT",
+            "Soundcloudmaster": "DIRECT",
+            "Starmakermaster": "DIRECT",
+            "Wesingmaster": "DIRECT",
+            "Pubgmaster": "NEWMASTER",
+            "Garenamaster": "NEWMASTER",
+            "Callofdutymaster": "NEWMASTER",
+            "Robloxmaster": "NEWMASTER",
+            "Facebookmaster": "NEWMASTER",
+            "Twittermaster": "NEWMASTER",
+            "Youtubemaster": "NEWMASTER",
+            "Vidiomaster": "NEWMASTER",
+            "Netflixmaster": "NEWMASTER",
+            "Nimomaster": "NEWMASTER",
+            "Disneymaster": "NEWMASTER",
+            "Rctiplusmaster": "NEWMASTER",
+            "Molamaster": "NEWMASTER",
+            "Maxtreammaster": "NEWMASTER",
+            "Restreammaster": "NEWMASTER",
+            "Spotifymaster": "NEWMASTER",
+            "Applemaster": "NEWMASTER",
+            "Browsermaster": "NEWMASTER",
+            "Onlineshopmaster": "NEWMASTER",
+            "Universitasmaster": "NEWMASTER",
+            "Speedtestmaster": "NEWMASTER",
+            "Zoommaster": "NEWMASTER",
+          }
+
+        port = int(metadata["dst_port"])
+
+        if metadata["network"] == "UDP":
+            if port == "443,3478,4244,5222,5223,5228,5288,5242,5349,17000,20030,20031,34784,45395,50318,59234":
+                ctx.log('[Script] matched QUIC traffic use newmaster')
+                return "NEWMASTER"
+
+        if metadata["dst_ip"] == "":
+            metadata["dst_ip"] = ctx.resolve_ip(metadata["host"])
+
+        port_list = [21, 22, 23, 53, 80, 123, 143, 194, 443, 465, 587, 853, 993, 995, 998, 2052, 2053, 2082, 2083, 2086, 2095, 2096, 5222, 5223, 5228, 5229, 5230, 5242, 8080, 8443, 8880, 8888, 8889, 17000, 20030, 20031, 20443, 49152, 50318, 50473, 50458, 50460, 50457, 50432, 50455, 50471, 50473, 50456, 59234]
+        if port not in port_list:
+            ctx.log('[Script] not common port use newmaster')
+            return "NEWMASTER"
+
+        if metadata["dst_ip"] == "":
+            return "DIRECT"
+
+        for ruleset in ruleset_action:
+            if ctx.rule_providers[ruleset].match(metadata):
+                return ruleset_action[ruleset]
+
+        code = ctx.geoip(metadata["dst_ip"])
+        if code == "ID":
+            ctx.log('[Script] Geoip CN')
+            return "DIRECT"
+
+        ctx.log('[Script] FINAL')
+        return "NEWMASTER"
+rules:
+- IP-CIDR,198.18.0.1/16,REJECT,no-resolve
+- RULE-SET,Iklanmaster,REJECT
+- RULE-SET,LAN,DIRECT
+- RULE-SET,Instagrammaster,DIRECT
+- RULE-SET,Tiktokmaster,DIRECT
+- RULE-SET,Whatsappmaster,DIRECT
+- RULE-SET,Deezermaster,DIRECT
+- RULE-SET,Langitmusikmaster,DIRECT
+- RULE-SET,Mobilegendsmaster,DIRECT
+- RULE-SET,Ressomaster,DIRECT
+- RULE-SET,Smulemaster,DIRECT
+- RULE-SET,Soundcloudmaster,DIRECT
+- RULE-SET,Starmakermaster,DIRECT
+- RULE-SET,Wesingmaster,DIRECT
+- RULE-SET,Pubgmaster,NEWMASTER
+- RULE-SET,Garenamaster,NEWMASTER
+- RULE-SET,Callofdutymaster,NEWMASTER
+- RULE-SET,Robloxmaster,NEWMASTER
+- RULE-SET,Facebookmaster,NEWMASTER
+- RULE-SET,Twittermaster,NEWMASTER
+- RULE-SET,Youtubemaster,NEWMASTER
+- RULE-SET,Vidiomaster,NEWMASTER
+- RULE-SET,Netflixmaster,NEWMASTER
+- RULE-SET,Nimomaster,NEWMASTER
+- RULE-SET,Disneymaster,NEWMASTER
+- RULE-SET,Rctiplusmaster,NEWMASTER
+- RULE-SET,Molamaster,NEWMASTER
+- RULE-SET,Maxtreammaster,NEWMASTER
+- RULE-SET,Restreammaster,NEWMASTER
+- RULE-SET,Spotifymaster,NEWMASTER
+- RULE-SET,Applemaster,NEWMASTER
+- RULE-SET,Browsermaster,NEWMASTER
+- RULE-SET,Onlineshopmaster,NEWMASTER
+- RULE-SET,Universitasmaster,NEWMASTER
+- RULE-SET,Speedtestmaster,NEWMASTER
+- RULE-SET,Zoommaster,NEWMASTER
+- IP-CIDR,8.8.8.0/24,NEWMASTER
+- IP-CIDR,1.1.1.0/24,NEWMASTER
+- IP-CIDR,208.67.220.0/24,NEWMASTER
+- GEOIP,CN,DIRECT
+- MATCH,NEWMASTER
+tun:
+  enable: true
+  stack: gvisor
+  dns-hijack:
+  - tcp://8.8.8.8:53
+  - tcp://8.8.4.4:53
+profile:
+  store-selected: true
+  store-fake-ip: true
+experimental:
+  interface-name: eth0
+secret: masterwifi
+bind-address: "*"
