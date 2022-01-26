@@ -181,25 +181,33 @@ rule-providers:
     behavior: classical
     path: "./rule_provider/applemaster.yaml"
   Browsermaster:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/browsermaster.yaml"
+    url: https://raw.githubusercontent.com/dimasdeem/ClashMaster/main/browsermaster.yaml?token=GHSAT0AAAAAABQICRCTEB3AF2D65XG2E56SYPRHMMQ
+    interval: 86400
   Callofdutymaster:
-    type: file
+     type: http
     behavior: classical
     path: "./rule_provider/callofdutymaster.yaml"
+    url: https://raw.githubusercontent.com/dimasdeem/ClashMaster/main/callofdutymaster.yaml?token=GHSAT0AAAAAABQICRCTDBRNCWS6JSNO4DFGYPRHN2A
+    interval: 86400
   Deezermaster:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/deezermaster.yaml"
+    url: https://raw.githubusercontent.com/dimasdeem/ClashMaster/main/deezermaster.yaml?token=GHSAT0AAAAAABQICRCTDFQBIWWS6JWCCWJUYPRHO4Q
+    interval: 86400
   Disneymaster:
     type: file
     behavior: classical
     path: "./rule_provider/disneymaster.yaml"
   Facebookmaster:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/facebookmaster.yaml"
+    url: https://raw.githubusercontent.com/dimasdeem/ClashMaster/main/facebookmaster.yaml?token=GHSAT0AAAAAABQICRCS7GNJR2GAQRNMDLZIYPRHQZA
+    interval: 86400
   Garenamaster:
     type: file
     behavior: classical
