@@ -175,11 +175,14 @@ proxy-groups:
     - vpn7.tjvpn.org
     - vpn7.tjvpn.org 19
     - vpn7.tjvpn.org 21
+    
 rule-providers:
   Applemaster:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/applemaster.yaml"
+    url: https://cdn.jsdelivr.net/gh/Hackl0us/SS-Rule-Snippet@master/Rulesets/Clash/Basic/Apple-proxy.yaml
+    interval: 3600
   Browsermaster:
     type: http
     behavior: classical
@@ -199,9 +202,11 @@ rule-providers:
     url: https://raw.githubusercontent.com/dimasdeem/ClashMaster/main/deezermaster.yaml?token=GHSAT0AAAAAABQICRCTDFQBIWWS6JWCCWJUYPRHO4Q
     interval: 86400
   Disneymaster:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/disneymaster.yaml"
+    url: https://cdn.jsdelivr.net/gh/Hackl0us/SS-Rule-Snippet@master/Rulesets/Clash/App/social/Telegram.yaml
+     interval: 3600
   Facebookmaster:
     type: http
     behavior: classical
@@ -209,121 +214,179 @@ rule-providers:
     url: https://raw.githubusercontent.com/dimasdeem/ClashMaster/main/facebookmaster.yaml?token=GHSAT0AAAAAABQICRCS7GNJR2GAQRNMDLZIYPRHQZA
     interval: 86400
   Garenamaster:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/garenamaster.yaml"
+    url: https://raw.githubusercontent.com/dimasdeem/ClashMaster/main/garenamaster.yaml?token=GHSAT0AAAAAABQICRCTK76WCF6BATFWIG56YPR4FTA
+    interval: 86400
   Iklanmaster:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/iklanmaster.yaml"
+    url: https://raw.githubusercontent.com/dimasdeem/ClashMaster/main/iklanmaster.yaml?token=GHSAT0AAAAAABQICRCS3BCHPOOFMZLJTXVWYPR4HAA
+    interval: 86400
   Instagrammaster:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/instagrammaster.yaml"
+    url: https://raw.githubusercontent.com/dimasdeem/ClashMaster/main/instagrammaster.yaml?token=GHSAT0AAAAAABQICRCSL7AM7GPV5AY5Q7EEYPR4IDQ
+    interval: 86400
   LAN:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/LAN.yaml"
+    url: https://raw.githubusercontent.com/dimasdeem/ClashMaster/main/LAN.yaml?token=GHSAT0AAAAAABQICRCTQDPYIRXIAK4SVRTWYPR4JQQ
+    interval: 86400
   Langitmusikmaster:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/langitmusikmaster.yaml"
+    url: https://raw.githubusercontent.com/dimasdeem/ClashMaster/main/langitmusikmaster.yaml?token=GHSAT0AAAAAABQICRCSKLUNSXOFBIWGHUK2YPR4KLA
+    interval: 86400
   Mobilegendsmaster:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/mlmaster.yaml"
+    url: https://raw.githubusercontent.com/dimasdeem/ClashMaster/main/mlmaster.yaml?token=GHSAT0AAAAAABQICRCTWEIYSIYWMJPLANQOYPR4K7Q
+    interval: 86400
   Molamaster:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/molamaster.yaml"
+    url: https://cdn.jsdelivr.net/gh/Hackl0us/SS-Rule-Snippet@master/Rulesets/Clash/Basic/Apple-direct.yaml
+    interval: 3600
   Maxtreammaster:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/maxtreammaster.yaml"
+    url: https://raw.githubusercontent.com/dimasdeem/ClashMaster/main/starmakermaster.yaml?token=GHSAT0AAAAAABQICRCTEB6EYZ3NPV7NEIWSYPR4UUA
+    interval: 86400
   Netflixmaster:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/netflixmaster.yaml"
+    url: https://raw.githubusercontent.com/dimasdeem/ClashMaster/main/starmakermaster.yaml?token=GHSAT0AAAAAABQICRCTEB6EYZ3NPV7NEIWSYPR4UUA
+    interval: 86400
   Nimomaster:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/nimomaster.yaml"
+    url: https://raw.githubusercontent.com/dimasdeem/ClashMaster/main/wesingmaster.yaml?token=GHSAT0AAAAAABQICRCSFII5P3JZIVPZFAJSYPR4ZUQ
+    interval: 86400
   Onlineshopmaster:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/onlineshopmaster.yaml"
+    url: https://raw.githubusercontent.com/dimasdeem/ClashMaster/main/onlineshopmaster.yaml?token=GHSAT0AAAAAABQICRCTJ3VF4HLQ2YK7HC5IYPR4N7A
+    interval: 86400
   Pubgmaster:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/pubgmaster.yaml"
+    url: https://raw.githubusercontent.com/dimasdeem/ClashMaster/main/pubgmaster.yaml?token=GHSAT0AAAAAABQICRCTI2N2A34FJRP4ZUWCYPR4PJA
+    interval: 86400
   Ressomaster:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/ressomaster.yaml"
+    url: https://raw.githubusercontent.com/dimasdeem/ClashMaster/main/ressomaster.yaml?token=GHSAT0AAAAAABQICRCTUQEFEWLLZODEKKGYYPR4QAA
+    interval: 86400
   Robloxmaster:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/robloxmaster.yaml"
+    url: https://raw.githubusercontent.com/dimasdeem/ClashMaster/main/robloxmaster.yaml?token=GHSAT0AAAAAABQICRCSEHJ3RM5QTDTZQ272YPR4RLA
+    interval: 86400
   Rctiplusmaster:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/rctiplusmaster.yaml"
+    url: https://raw.githubusercontent.com/dimasdeem/ClashMaster/main/youtubemaster.yaml?token=GHSAT0AAAAAABQICRCT5VHWQ3S4WLLVWV3IYPR4YKQ
+    interval: 86400
   Restreammaster:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/restreammaster.yaml"
+    url: https://raw.githubusercontent.com/dimasdeem/ClashMaster/main/youtubemaster.yaml?token=GHSAT0AAAAAABQICRCT5VHWQ3S4WLLVWV3IYPR4YKQ
+    interval: 86400
   Smulemaster:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/smulemaster.yaml"
+    url: https://raw.githubusercontent.com/dimasdeem/ClashMaster/main/smulemaster.yaml?token=GHSAT0AAAAAABQICRCT3YIDVYCXV6G3ZNTSYPR4SSA
+    interval: 86400
   Soundcloudmaster:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/soundcloudmaster.yaml"
+    url: https://raw.githubusercontent.com/dimasdeem/ClashMaster/main/soundcloudmaster.yaml?token=GHSAT0AAAAAABQICRCTC7YM2VIZGMUVUJIAYPR4T3Q
+    interval: 86400
   Starmakermaster:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/starmakermaster.yaml"
+    url: https://raw.githubusercontent.com/dimasdeem/ClashMaster/main/starmakermaster.yaml?token=GHSAT0AAAAAABQICRCTEB6EYZ3NPV7NEIWSYPR4UUA
+    interval: 86400
   Spotifymaster:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/spotifymaster.yaml"
+    url: https://raw.githubusercontent.com/dimasdeem/ClashMaster/main/starmakermaster.yaml?token=GHSAT0AAAAAABQICRCTEB6EYZ3NPV7NEIWSYPR4UUA
+    interval: 86400
   Speedtestmaster:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/speedtestmaster.yaml"
+    url: https://raw.githubusercontent.com/dimasdeem/ClashMaster/main/speedtestmaster.yaml?token=GHSAT0AAAAAABQICRCSNYKOFNLDYOEKF3SGYPR4VRA
+    interval: 86400
   Tiktokmaster:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/tiktokmaster.yaml"
+    url: https://raw.githubusercontent.com/dimasdeem/ClashMaster/main/tiktokmaster.yaml?token=GHSAT0AAAAAABQICRCTY5KTWOFSQ7U5V2SUYPR4WWA
+    interval: 86400
   Twittermaster:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/twittermaster.yaml"
+    url: https://raw.githubusercontent.com/dimasdeem/ClashMaster/main/whatsappmaster.yaml?token=GHSAT0AAAAAABQICRCSWVULCML2VUISL6NYYPR4Y7Q
+    interval: 86400
   Universitasmaster:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/universitasmaster.yaml"
+    url: https://raw.githubusercontent.com/dimasdeem/ClashMaster/main/onlineshopmaster.yaml?token=GHSAT0AAAAAABQICRCTJ3VF4HLQ2YK7HC5IYPR4N7A
+    interval: 86400
   Vidiomaster:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/vidiomaster.yaml"
+    url: https://raw.githubusercontent.com/dimasdeem/ClashMaster/main/youtubemaster.yaml?token=GHSAT0AAAAAABQICRCT5VHWQ3S4WLLVWV3IYPR4YKQ
+    interval: 86400
   Wesingmaster:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/wesingmaster.yaml"
+    url: https://raw.githubusercontent.com/dimasdeem/ClashMaster/main/wesingmaster.yaml?token=GHSAT0AAAAAABQICRCSFII5P3JZIVPZFAJSYPR4ZUQ
+    interval: 86400
   Whatsappmaster:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/whatsappmaster.yaml"
+    url: https://raw.githubusercontent.com/dimasdeem/ClashMaster/main/whatsappmaster.yaml?token=GHSAT0AAAAAABQICRCSWVULCML2VUISL6NYYPR4Y7Q
+    interval: 86400
   Youtubemaster:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/youtubemaster.yaml"
+    url: https://raw.githubusercontent.com/dimasdeem/ClashMaster/main/youtubemaster.yaml?token=GHSAT0AAAAAABQICRCT5VHWQ3S4WLLVWV3IYPR4YKQ
+    interval: 86400
   Zoommaster:
-    type: file
+    type: http
     behavior: classical
     path: "./rule_provider/zoommaster.yaml"
+    url: https://raw.githubusercontent.com/dimasdeem/ClashMaster/main/zoommaster.yaml?token=GHSAT0AAAAAABQICRCTVLKCCK32GTQUNJEYYPR4XVA
+    interval: 86400
 script:
   code: |
     def main(ctx, metadata):
