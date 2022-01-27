@@ -157,9 +157,9 @@ proxies:
 proxy-groups:
 - name: NEWMASTER
   type: load-balance
-    url: 'https://www.gstatic.com/generate_204'
-    interval: 300
-    strategy: consistent-hashing
+  url: 'https://www.gstatic.com/generate_204'
+  interval: 300
+  strategy: consistent-hashing
   proxies:
     - vpn4.tjvpn.org
     - vpn4.tjvpn.org 76
