@@ -133,6 +133,7 @@ dns:
   - "*.linksyssmartwifi.com"
   - "+.battlenet.com.cn"
   fake-ip-range: 198.18.0.1/16
+  
 proxies:
 #Expired date 23-02-2022
 - {name: vpn4.tjvpn.org, server: vpn4.tjvpn.org, port: 443, udp: true, type: trojan, password: 30c4f060-7cb1-11ec-b136-217f943883dc, sni: p16-tiktokcdn-com.akamaized.net, skip-cert-verify: true}
@@ -140,7 +141,6 @@ proxies:
 - {name: vpn4.tjvpn.org 70, server: vpn4.tjvpn.org, port: 443, udp: true, type: trojan, password: 75892610-7cb1-11ec-b632-217f943883dc, sni: p16-tiktokcdn-com.akamaized.net, skip-cert-verify: true}
 - {name: vpn5.tjvpn.org, server: vpn5.tjvpn.org, port: 443, udp: true, type: trojan, password: 67b12a60-7cc3-11ec-b934-217f943883dc, sni: p16-tiktokcdn-com.akamaized.net, skip-cert-verify: true}
 - {name: vpn5.tjvpn.org 76, server: vpn5.tjvpn.org, port: 443, udp: true, type: trojan, password: 8bb97880-7cc3-11ec-b631-217f943883dc, sni: p16-tiktokcdn-com.akamaized.net, skip-cert-verify: true}
-
 #Expired date 22-02-2022
 - {name: vpn4.tjvpn.org 46, server: vpn4.tjvpn.org, port: 443, udp: true, type: trojan, password: 66e24710-7be9-11ec-b732-217f943883dc, sni: p16-tiktokcdn-com.akamaized.net, skip-cert-verify: true}
 - {name: vpn6.tjvpn.org, server: vpn6.tjvpn.org, port: 443, udp: true, type: trojan, password: 7e957c20-7c09-11ec-b839-217f943883dc, sni: p16-tiktokcdn-com.akamaized.net, skip-cert-verify: true}
@@ -148,7 +148,6 @@ proxies:
 - {name: vpn6.tjvpn.org 2, server: vpn6.tjvpn.org, port: 443, udp: true, type: trojan, password: d71442e0-7c09-11ec-b637-217f943883dc, sni: p16-tiktokcdn-com.akamaized.net, skip-cert-verify: true}
 - {name: vpn6.tjvpn.org 96, server: vpn6.tjvpn.org, port: 443, udp: true, type: trojan, password: 007cbc60-7c0a-11ec-b637-217f943883dc, sni: p16-tiktokcdn-com.akamaized.net, skip-cert-verify: true}
 - {name: vpn6.tjvpn.org 76, server: vpn6.tjvpn.org, port: 443, udp: true, type: trojan, password: 2aef56a0-7c0a-11ec-b735-217f943883dc, sni: p16-tiktokcdn-com.akamaized.net, skip-cert-verify: true}
-  
 #Expired date 24-02-2022
 - {name: vpn7.tjvpn.org, server: vpn7.tjvpn.org, port: 443, udp: true, type: trojan, password: d8105c90-7dac-11ec-b235-217f943883dc, sni: p16-tiktokcdn-com.akamaized.net, skip-cert-verify: true}
 - {name: vpn7.tjvpn.org 19, server: vpn7.tjvpn.org, port: 443, udp: true, type: trojan, password: ff6153b0-7dac-11ec-b733-217f943883dc, sni: p16-tiktokcdn-com.akamaized.net, skip-cert-verify: true}
