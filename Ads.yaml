@@ -967,37 +967,37 @@ payload:
   - IP-CIDR,61.174.50.211/32,Reject
   - DOMAIN-SUFFIX,614514.com,Reject
   - DOMAIN-SUFFIX,615b68cc9c8528e.com,Reject
-  - MAIN-SUFFIX,61739011039d41a.com,Reject
-  - MAIN-SUFFIX,6198399e4910e66-ovc.com,Reject
-  - MAIN-SUFFIX,620c663bca9a4.com,Reject
-  - MAIN-SUFFIX,625c9289e60793.com,Reject
-  - MAIN-SUFFIX,62b70ac32d4614b.com,Reject
-  - MAIN-SUFFIX,62wm.com,Reject
-  - MAIN-SUFFIX,63fut3uw0b.xyz,Reject
-  - MAIN-SUFFIX,63r2vxacp0pr.com,Reject
-  - MAIN-SUFFIX,63voy9ciyi14.com,Reject
-  - MAIN-SUFFIX,641198810fae7.com,Reject
-  - MAIN-SUFFIX,643226.com,Reject
-  - MAIN-SUFFIX,644446.com,Reject
-  - MAIN-SUFFIX,645yvcj6c8rn.com,Reject
-  - MAIN-SUFFIX,64aa81cd247ea32d.com,Reject
-  - MAIN-SUFFIX,64ri.cn,Reject
-  - MAIN-SUFFIX,64si.com,Reject
-  - MAIN-SUFFIX,651b4ee436b8cdae.com,Reject
-  - MAIN-SUFFIX,6548579f50dc08be9.com,Reject
-  - MAIN-SUFFIX,65a29ceed813bbca61.com,Reject
-  - MAIN-SUFFIX,65tgh.com,Reject
-  - MAIN-SUFFIX,65vk1fba34.com,Reject
-  - CIDR,66.212.56.229/32,Reject
-  - MAIN-SUFFIX,660a755deb8829fe.com,Reject
-  - MAIN-SUFFIX,6612151.cn,Reject
-  - MAIN-SUFFIX,6612152.cn,Reject
-  - MAIN-SUFFIX,6666lm.com,Reject
-  - MAIN-SUFFIX,6669667.com,Reject
-  - MAIN-SUFFIX,66993.top,Reject
-  - MAIN-SUFFIX,66996.top,Reject
-  - MAIN-SUFFIX,66997.top,Reject
-  - MAIN-SUFFIX,66998.top,Reject
+  - DOMAIN-SUFFIX,61739011039d41a.com,Reject
+  - DOMAIN-SUFFIX,6198399e4910e66-ovc.com,Reject
+  - DOMAIN-SUFFIX,620c663bca9a4.com,Reject
+  - DOMAIN-SUFFIX,625c9289e60793.com,Reject
+  - DOMAIN-SUFFIX,62b70ac32d4614b.com,Reject
+  - DOMAIN-SUFFIX,62wm.com,Reject
+  - DOMAIN-SUFFIX,63fut3uw0b.xyz,Reject
+  - DOMAIN-SUFFIX,63r2vxacp0pr.com,Reject
+  - DOMAIN-SUFFIX,63voy9ciyi14.com,Reject
+  - DOMAIN-SUFFIX,641198810fae7.com,Reject
+  - DOMAIN-SUFFIX,643226.com,Reject
+  - DOMAIN-SUFFIX,644446.com,Reject
+  - DOMAIN-SUFFIX,645yvcj6c8rn.com,Reject
+  - DOMAIN-SUFFIX,64aa81cd247ea32d.com,Reject
+  - DOMAIN-SUFFIX,64ri.cn,Reject
+  - DOMAIN-SUFFIX,64si.com,Reject
+  - DOMAIN-SUFFIX,651b4ee436b8cdae.com,Reject
+  - DOMAIN-SUFFIX,6548579f50dc08be9.com,Reject
+  - DOMAIN-SUFFIX,65a29ceed813bbca61.com,Reject
+  - DOMAIN-SUFFIX,65tgh.com,Reject
+  - DOMAIN-SUFFIX,65vk1fba34.com,Reject
+  - IP-CIDR,66.212.56.229/32,Reject
+  - DOMAIN-SUFFIX,660a755deb8829fe.com,Reject
+  - DOMAIN-SUFFIX,6612151.cn,Reject
+  - DOMAIN-SUFFIX,6612152.cn,Reject
+  - DOMAIN-SUFFIX,6666lm.com,Reject
+  - DOMAIN-SUFFIX,6669667.com,Reject
+  - DOMAIN-SUFFIX,66993.top,Reject
+  - DOMAIN-SUFFIX,66996.top,Reject
+  - DOMAIN-SUFFIX,66997.top,Reject
+  - DOMAIN-SUFFIX,66998.top,Reject
   - DOMAIN-SUFFIX,66ce98158e4f402.com,Reject
   - DOMAIN-SUFFIX,66cn.com,Reject
   - DOMAIN-SUFFIX,6711.com,Reject
