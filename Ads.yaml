@@ -26,506 +26,505 @@ payload:
   - DOMAIN-SUFFIX,sd.domob.cn,Reject
   - DOMAIN-SUFFIX,adjust.com,Reject
   - DOMAIN-SUFFIX,adjust.io,Reject
-DOMAIN-SUFFIX,beacon.tingyun.com,Reject
-DOMAIN-SUFFIX,cmcore.com,Reject
-DOMAIN-SUFFIX,coremetrics.com,Reject
-DOMAIN-SUFFIX,irs01.com,Reject
-DOMAIN-SUFFIX,madmini.com,Reject
-DOMAIN-SUFFIX,optimizelyapis.com,Reject
-DOMAIN-SUFFIX,sitemeter.com,Reject
-DOMAIN-SUFFIX,wrating.com,Reject
-DOMAIN-SUFFIX,99click.com,Reject
-DOMAIN-SUFFIX,acs86.com,Reject
-DOMAIN-SUFFIX,adchina.com,Reject
-DOMAIN-SUFFIX,adcome.cn,Reject
-DOMAIN-SUFFIX,adinfuse.com,Reject
-DOMAIN-SUFFIX,adsmogo.org,Reject
-DOMAIN-SUFFIX,aduu.cn,Reject
-DOMAIN-SUFFIX,advertising.com,Reject
-DOMAIN-SUFFIX,adview.cn,Reject
-DOMAIN-SUFFIX,adwhirl.com,Reject
-DOMAIN-SUFFIX,adwo.com,Reject
-DOMAIN-SUFFIX,adxmi.com,Reject
-DOMAIN-SUFFIX,adzerk.net,Reject
-DOMAIN-SUFFIX,allyes.com,Reject
-DOMAIN-SUFFIX,anquan.org,Reject
-DOMAIN-SUFFIX,appads.com,Reject
-DOMAIN-SUFFIX,applifier.com,Reject
-DOMAIN-SUFFIX,applovin.com,Reject
-DOMAIN-SUFFIX,chartboost.com,Reject
-DOMAIN-SUFFIX,clicktracks.com,Reject
-DOMAIN-SUFFIX,clickzs.com,Reject
-DOMAIN-SUFFIX,guohead.com,Reject
-DOMAIN-SUFFIX,guomob.com,Reject
-DOMAIN-SUFFIX,immob.cn,Reject
-DOMAIN-SUFFIX,inmobi.com,Reject
-DOMAIN-SUFFIX,intely.cn,Reject
-DOMAIN-SUFFIX,ipinyou.com,Reject
-DOMAIN-SUFFIX,localytics.com,Reject
-DOMAIN-SUFFIX,mediav.com,Reject
-DOMAIN-SUFFIX,mobclix.com,Reject
-DOMAIN-SUFFIX,optaim.com,Reject
-DOMAIN-SUFFIX,quantserve.com,Reject
-DOMAIN-SUFFIX,responsys.net,Reject
-DOMAIN-SUFFIX,serving-sys.com,Reject
-DOMAIN-SUFFIX,smartmad.com,Reject
-DOMAIN-SUFFIX,smartadserver.com,Reject
-DOMAIN-SUFFIX,sponsorpay.com,Reject
-DOMAIN-SUFFIX,switchadhub.com,Reject
-DOMAIN-SUFFIX,thoughtleadr.com,Reject
-DOMAIN-SUFFIX,unimhk.com,Reject
-DOMAIN-SUFFIX,unlitui.com,Reject
-DOMAIN-SUFFIX,uyunad.com,Reject
-DOMAIN-SUFFIX,vamaker.com,Reject
-DOMAIN-SUFFIX,waps.cn,Reject
-DOMAIN-SUFFIX,wiyun.com,Reject
-DOMAIN-SUFFIX,wooboo.com.cn,Reject
-DOMAIN-SUFFIX,wqmobile.com,Reject
-DOMAIN-SUFFIX,youmi.net,Reject
-DOMAIN-SUFFIX,zhiziyun.com,Reject
-DOMAIN-SUFFIX,segment.com,Reject
-DOMAIN-SUFFIX,ad.sina.com.cn,Reject
-DOMAIN-SUFFIX,adm.leju.sina.com.cn,Reject
-DOMAIN-SUFFIX,atm.sina.com,Reject
-DOMAIN-SUFFIX,dcads.sina.com.cn,Reject
-DOMAIN-SUFFIX,sax.sina.cn,Reject
-DOMAIN-SUFFIX,sax.sina.com.cn,Reject
-DOMAIN-SUFFIX,tjs.sjs.sinajs.cn,Reject
-DOMAIN-SUFFIX,c.biz.weibo.com,Reject
-DOMAIN-SUFFIX,game.weibo.com,Reject
-DOMAIN-SUFFIX,c.wcpt.biz.weibo.com,Reject
-DOMAIN-SUFFIX,s.alitui.weibo.com,Reject
-DOMAIN-SUFFIX,zc.biz.weibo.com,Reject
-DOMAIN-SUFFIX,zymo.mps.weibo.com,Reject
-DOMAIN-SUFFIX,game.weibo.cn,Reject
-DOMAIN-SUFFIX,m.game.weibo.cn,Reject
-DOMAIN-SUFFIX,promote.biz.weibo.cn,Reject
-DOMAIN-SUFFIX,adimg.mobile.sina.cn,Reject
-DOMAIN-SUFFIX,newspush.sinajs.cn,Reject
-DOMAIN-SUFFIX,sdkapp.mobile.sina.cn,Reject
-DOMAIN-SUFFIX,sdkclick.mobile.sina.cn,Reject
-DOMAIN-SUFFIX,trends.mobile.sina.cn,Reject
-DOMAIN-SUFFIX,wbapp.mobile.sina.cn,Reject
-DOMAIN-SUFFIX,wbclick.mobile.sina.cn,Reject
-DOMAIN-SUFFIX,wbpctips.mobile.sina.cn,Reject
-DOMAIN-SUFFIX,ota.pay.mobile.sina.cn,Reject
-DOMAIN-SUFFIX,pay.mobile.sina.cn,Reject
-DOMAIN-SUFFIX,gorgon.youdao.com,Reject
-DOMAIN-SUFFIX,impservice.youdao.com,Reject
-DOMAIN-SUFFIX,ad.m.iqiyi.com,Reject
-DOMAIN-SUFFIX,afp.iqiyi.com,Reject
-DOMAIN-SUFFIX,api.cupid.iqiyi.com,Reject
-DOMAIN-SUFFIX,c.uaa.iqiyi.com,Reject
-DOMAIN-SUFFIX,cloudpush.iqiyi.com,Reject
-DOMAIN-SUFFIX,cm.passport.iqiyi.com,Reject
-DOMAIN-SUFFIX,emoticon.sns.iqiyi.com,Reject
-DOMAIN-SUFFIX,gamecenter.iqiyi.com,Reject
-DOMAIN-SUFFIX,hotchat-im.iqiyi.com,Reject
-DOMAIN-SUFFIX,ifacelog.iqiyi.com,Reject
-DOMAIN-SUFFIX,mbdlog.iqiyi.com,Reject
-DOMAIN-SUFFIX,meta.video.qiyi.com,Reject
-DOMAIN-SUFFIX,paopao.iqiyi.com,Reject
-DOMAIN-SUFFIX,policy.video.iqiyi.com,Reject
-DOMAIN-SUFFIX,rcd.iqiyi.com,Reject
-DOMAIN-SUFFIX,cmts.iqiyi.com,Reject
-DOMAIN-SUFFIX,data.video.qiyi.com,Reject
-DOMAIN-SUFFIX,msg.71.am,Reject
-DOMAIN-SUFFIX,msga.cupid.iqiyi.com,Reject
-IP-CIDR,101.227.14.80/29,Reject
-IP-CIDR,101.227.200.0/22,Reject
-IP-CIDR,112.13.64.0/22,Reject
-IP-CIDR,112.253.36.0/24,Reject
-IP-CIDR,117.139.16.0/22,Reject
-IP-CIDR,117.139.18.141/22,Reject
-IP-CIDR,119.188.13.32/29,Reject
-IP-CIDR,119.188.172.192/28,Reject
-IP-CIDR,119.188.173.0/27,Reject
-IP-CIDR,119.188.43.61/32,Reject
-IP-CIDR,123.125.116.0/22,Reject
-IP-CIDR,123.125.117.0/22,Reject
-IP-CIDR,123.130.122.128/28,Reject
-IP-CIDR,183.221.244.0/22,Reject
-IP-CIDR,183.221.247.189/22,Reject
-IP-CIDR,27.221.89.128/28,Reject
-IP-CIDR,60.211.171.128/29,Reject
-IP-CIDR,60.211.211.1/32,Reject
-DOMAIN-SUFFIX,im-x.jd.com,Reject
-DOMAIN-SUFFIX,ad.ipadview.com,Reject
-DOMAIN-SUFFIX,.maizhenai.cn,Reject
-DOMAIN-SUFFIX,.paomifen.cn,Reject
-DOMAIN-SUFFIX,.songlaoban.cn,Reject
-DOMAIN-SUFFIX,.09mk.cn,Reject
-DOMAIN-SUFFIX,.hepengshan.cn,Reject
-DOMAIN-SUFFIX,.epsilon.com,Reject
-DOMAIN-SUFFIX,.storygize.net,Reject
-DOMAIN-SUFFIX,.connexity.net,Reject
-DOMAIN-SUFFIX,.liadm.com,Reject
-DOMAIN-SUFFIX,.agkn.com,Reject
-DOMAIN-SUFFIX,.exelator.com,Reject
-DOMAIN-SUFFIX,dualstack.adsame-1421766300.ap-southeast-1.elb.amazonaws.com,Reject
-DOMAIN-SUFFIX,.amaoshe.cn,Reject
-DOMAIN-SUFFIX,.yeshoutuan.cn,Reject
-DOMAIN-SUFFIX,.muxq8.cn,Reject
-DOMAIN-SUFFIX,.huanshawang.cn,Reject
-DOMAIN-SUFFIX,.v85968.cn,Reject
-DOMAIN-SUFFIX,taboola.com,Reject
-DOMAIN-SUFFIX,trc.taboola.com,Reject
-DOMAIN-SUFFIX,tuisnake.com,Reject
-DOMAIN-SUFFIX,.duiba.com.cn,Reject
-DOMAIN-SUFFIX,.dui88.com,Reject
-DOMAIN-SUFFIX,location.ximalaya.com,Reject
-DOMAIN-SUFFIX,adse.ximalaya.com,Reject
-DOMAIN-SUFFIX,xdcs-collector.ximalaya.com,Reject
-DOMAIN-SUFFIX,.inmobi.cn,Reject
-DOMAIN-SUFFIX,.criteo.com,Reject
-DOMAIN-SUFFIX,adx.hupu.com,Reject
-DOMAIN-SUFFIX,kikibt8.com,Reject
-DOMAIN-SUFFIX,kikibt8.xyz,Reject
-
-# adblock rules refresh time: 2021-03-29 02:33:15
-DOMAIN-SUFFIX,00-gov.cn,Reject
-DOMAIN-SUFFIX,000dn.com,Reject
-DOMAIN-SUFFIX,0024aaaa.com,Reject
-DOMAIN-SUFFIX,003store.com,Reject
-DOMAIN-SUFFIX,006a039c957c142bb.com,Reject
-DOMAIN-SUFFIX,00880808.com,Reject
-DOMAIN-SUFFIX,008844.cc,Reject
-DOMAIN-SUFFIX,00aaa2d81c1d174.com,Reject
-DOMAIN-SUFFIX,00ae8b5a9c1d597.com,Reject
-DOMAIN-SUFFIX,00oo00.com,Reject
-DOMAIN-SUFFIX,012469af389a1d1246d.com,Reject
-DOMAIN-SUFFIX,0127538a552.com,Reject
-DOMAIN-SUFFIX,01dbf3a452b6.com,Reject
-DOMAIN-SUFFIX,01fen.com,Reject
-DOMAIN-SUFFIX,0217qpineuxbcdhopswkvf.xyz,Reject
-DOMAIN-SUFFIX,0224fqpowiuxybnmvdfghj.xyz,Reject
-DOMAIN-SUFFIX,022aifang.com,Reject
-DOMAIN-SUFFIX,025suyu.com,Reject
-DOMAIN-SUFFIX,0265331.com,Reject
-DOMAIN-SUFFIX,027whht.com,Reject
-DOMAIN-SUFFIX,02aa19117f396e9.com,Reject
-DOMAIN-SUFFIX,02b5da94a2bd4aea.com,Reject
-DOMAIN-SUFFIX,0302woeuxcbrnxcvsdfghu.xyz,Reject
-DOMAIN-SUFFIX,0309fuweopermncvbnazdf.xyz,Reject
-DOMAIN-SUFFIX,0316dieroxiemzfjwmapk.xyz,Reject
-DOMAIN-SUFFIX,0323wqpioutyuencsamxsd.xyz,Reject
-DOMAIN-SUFFIX,0330vsdgdwer.xyz,Reject
-DOMAIN-SUFFIX,0351dvd.cn,Reject
-DOMAIN-SUFFIX,039ad0897e6da.com,Reject
-DOMAIN-SUFFIX,0413fsiuhwem.xyz,Reject
-DOMAIN-SUFFIX,0420zvnmljgfdsa.xyz,Reject
-DOMAIN-SUFFIX,0451106.com,Reject
-DOMAIN-SUFFIX,048d36793b8.com,Reject
-DOMAIN-SUFFIX,04zl.cn,Reject
-DOMAIN-SUFFIX,050y9lhe8p.com,Reject
-DOMAIN-SUFFIX,0511qsfhknvz.xyz,Reject
-DOMAIN-SUFFIX,0516bm.com,Reject
-DOMAIN-SUFFIX,0517kongyaji.com,Reject
-DOMAIN-SUFFIX,0518dfgwert.xyz,Reject
-DOMAIN-SUFFIX,0525pweoruxnj.xyz,Reject
-DOMAIN-SUFFIX,0530hz.cn,Reject
-DOMAIN-SUFFIX,0531kt.com,Reject
-DOMAIN-SUFFIX,0551zgz.com,Reject
-DOMAIN-SUFFIX,0577renliu.net.cn,Reject
-DOMAIN-SUFFIX,0592weixin.com,Reject
-DOMAIN-SUFFIX,059e025e7484.com,Reject
-DOMAIN-SUFFIX,05ee3a24ed11df058c8.com,Reject
-DOMAIN-SUFFIX,05qwmtwxa3ev.com,Reject
-DOMAIN-SUFFIX,05xz0h2xo799.com,Reject
-DOMAIN-SUFFIX,0601chruopjsm.xyz,Reject
-DOMAIN-SUFFIX,0615nxbsho.xyz,Reject
-DOMAIN-SUFFIX,0629ohfsx.xyz,Reject
-DOMAIN-SUFFIX,06dd0894cce50c.com,Reject
-DOMAIN-SUFFIX,06f09b1008ae993a5a.com,Reject
-DOMAIN-SUFFIX,0706hjkv.xyz,Reject
-DOMAIN-SUFFIX,0713bzksl.xyz,Reject
-DOMAIN-SUFFIX,0727vjdl.xyz,Reject
-DOMAIN-SUFFIX,0728w.cn,Reject
-DOMAIN-SUFFIX,073c0cec65916314a.com,Reject
-DOMAIN-SUFFIX,0755man.cn,Reject
-DOMAIN-SUFFIX,0796gou.com,Reject
-DOMAIN-SUFFIX,0798ls.com,Reject
-DOMAIN-SUFFIX,07aa0353cc.com,Reject
-DOMAIN-SUFFIX,07fe665dd33f.com,Reject
-DOMAIN-SUFFIX,080644.com,Reject
-DOMAIN-SUFFIX,0817zfbj.xyz,Reject
-DOMAIN-SUFFIX,0824xfh.xyz,Reject
-DOMAIN-SUFFIX,0851ok.com,Reject
-DOMAIN-SUFFIX,0898hhh.com,Reject
-DOMAIN-SUFFIX,0921vch.xyz,Reject
-DOMAIN-SUFFIX,0926a687679d337e9d.com,Reject
-DOMAIN-SUFFIX,0928vld.xyz,Reject
-DOMAIN-SUFFIX,0937jyg.com,Reject
-DOMAIN-SUFFIX,0956228a2df97a.com,Reject
-DOMAIN-SUFFIX,0a6efd24b565c.com,Reject
-DOMAIN-SUFFIX,0b19222804.com,Reject
-DOMAIN-SUFFIX,0b2qv7.cn,Reject
-DOMAIN-SUFFIX,0b9d84d93f1b.com,Reject
-DOMAIN-SUFFIX,0bc.top,Reject
-DOMAIN-SUFFIX,0c12b89c3738.com,Reject
-DOMAIN-SUFFIX,0cf40a2064ce2.com,Reject
-DOMAIN-SUFFIX,0d20bff8143.com,Reject
-DOMAIN-SUFFIX,0dbcf515975d.com,Reject
-DOMAIN-SUFFIX,0dc3c6535c5.com,Reject
-DOMAIN-SUFFIX,0e6fc55ed3d4c2c2ba0.com,Reject
-DOMAIN-SUFFIX,0f461325bf56c3e1b9.com,Reject
-DOMAIN-SUFFIX,0gw7e6s3wrao9y3q.pro,Reject
-DOMAIN-SUFFIX,0h6djpk8fn.com,Reject
-DOMAIN-SUFFIX,0ij3tm.com,Reject
-DOMAIN-SUFFIX,0klxjejyxak3.com,Reject
-DOMAIN-SUFFIX,0mr.cc,Reject
-DOMAIN-SUFFIX,0oaqgsk54hm5.com,Reject
-DOMAIN-SUFFIX,0redirb.com,Reject
-DOMAIN-SUFFIX,0s9dxlr07huu.com,Reject
-DOMAIN-SUFFIX,0sywjs4r1x.com,Reject
-DOMAIN-SUFFIX,0x01n2ptpuz3.com,Reject
-DOMAIN-SUFFIX,0xxd.com,Reject
-DOMAIN-SUFFIX,1-m.xyz,Reject
-DOMAIN-SUFFIX,1-vr.xyz,Reject
-DOMAIN-SUFFIX,1.01fy.cn,Reject
-DOMAIN-SUFFIX,1.07swz.com,Reject
-DOMAIN-SUFFIX,1.1010pic.com,Reject
-DOMAIN-SUFFIX,1.11467.com,Reject
-DOMAIN-SUFFIX,1.15lu.com,Reject
-DOMAIN-SUFFIX,1.201980.com,Reject
-IP-CIDR,1.3.0.10/32,Reject
-DOMAIN-SUFFIX,1.32xp.com,Reject
-DOMAIN-SUFFIX,1.5000yan.com,Reject
-DOMAIN-SUFFIX,1.51sxue.cn,Reject
-DOMAIN-SUFFIX,1.66law.cn,Reject
-DOMAIN-SUFFIX,1.800400.net,Reject
-DOMAIN-SUFFIX,1.92caijing.com,Reject
-DOMAIN-SUFFIX,1.ajiyuming.com,Reject
-DOMAIN-SUFFIX,1.arpun.com,Reject
-DOMAIN-SUFFIX,1.bh5.com.cn,Reject
-DOMAIN-SUFFIX,1.cjcp.cn,Reject
-DOMAIN-SUFFIX,1.codesdq.com,Reject
-DOMAIN-SUFFIX,1.codezh.com,Reject
-DOMAIN-SUFFIX,1.feihua.com,Reject
-DOMAIN-SUFFIX,1.feihua.net.cn,Reject
-DOMAIN-SUFFIX,1.glook.cn,Reject
-DOMAIN-SUFFIX,1.hao123.com,Reject
-DOMAIN-SUFFIX,1.hnyouneng.com,Reject
-DOMAIN-SUFFIX,1.i999d.cn,Reject
-DOMAIN-SUFFIX,1.idc100.com,Reject
-DOMAIN-SUFFIX,1.ideng.com,Reject
-DOMAIN-SUFFIX,1.isanxia.com,Reject
-DOMAIN-SUFFIX,1.jeasyui.net,Reject
-DOMAIN-SUFFIX,1.jiqie.cn,Reject
-DOMAIN-SUFFIX,1.kuaidiwo.cn,Reject
-DOMAIN-SUFFIX,1.lishibu.com,Reject
-DOMAIN-SUFFIX,1.lvshi567.com,Reject
-DOMAIN-SUFFIX,1.mgff.com,Reject
-DOMAIN-SUFFIX,1.mm100.com,Reject
-DOMAIN-SUFFIX,1.pncdn.cn,Reject
-DOMAIN-SUFFIX,1.qjhm.net,Reject
-DOMAIN-SUFFIX,1.rr95.com,Reject
-DOMAIN-SUFFIX,1.sj33.net,Reject
-DOMAIN-SUFFIX,1.soufy.cn,Reject
-DOMAIN-SUFFIX,1.tecbbs.com,Reject
-DOMAIN-SUFFIX,1.ttxs123.net,Reject
-DOMAIN-SUFFIX,1.uc129.com,Reject
-DOMAIN-SUFFIX,1.ufc123.com,Reject
-DOMAIN-SUFFIX,1.v-x.com.cn,Reject
-DOMAIN-SUFFIX,1.vsimg.com,Reject
-DOMAIN-SUFFIX,1.wenzhangba.cn,Reject
-DOMAIN-SUFFIX,1.xilu.com,Reject
-DOMAIN-SUFFIX,1.xuexi.la,Reject
-DOMAIN-SUFFIX,1.yac8.net,Reject
-DOMAIN-SUFFIX,1.yuexw.com,Reject
-DOMAIN-SUFFIX,1.yxzw.com.cn,Reject
-DOMAIN-SUFFIX,1.zhev.com.cn,Reject
-DOMAIN-SUFFIX,1.zhuangxiu567.com,Reject
-DOMAIN-SUFFIX,1.zou114.com,Reject
-DOMAIN-SUFFIX,1.zuowenjun.com,Reject
-DOMAIN-SUFFIX,1.zw3e.com,Reject
-DOMAIN-SUFFIX,100.admin5.com,Reject
-DOMAIN-SUFFIX,100.pncdn.cn,Reject
-DOMAIN-SUFFIX,1000dy.com,Reject
-DOMAIN-SUFFIX,1002.men,Reject
-DOMAIN-SUFFIX,1005fdh.xyz,Reject
-DOMAIN-SUFFIX,100fenlm.com,Reject
-DOMAIN-SUFFIX,1017.cn,Reject
-IP-CIDR,103.249.254.113/32,Reject
-IP-CIDR,103.49.209.27/32,Reject
-IP-CIDR,103.75.47.19/32,Reject
-IP-CIDR,104.195.62.12/32,Reject
-IP-CIDR,104.197.140.120/32,Reject
-IP-CIDR,104.198.198.188/32,Reject
-IP-CIDR,104.201.20.196/32,Reject
-IP-CIDR,104.203.214.3/32,Reject
-IP-CIDR,104.203.72.254/32,Reject
-IP-CIDR,104.233.154.134/32,Reject
-IP-CIDR,104.233.177.93/32,Reject
-IP-CIDR,104.233.203.164/32,Reject
-IP-CIDR,104.237.67.78/32,Reject
-DOMAIN-SUFFIX,104610.com,Reject
-IP-CIDR,106.187.95.251/32,Reject
-IP-CIDR,107.172.176.197/32,Reject
-IP-CIDR,107.183.137.18/32,Reject
-IP-CIDR,107.187.122.172/32,Reject
-IP-CIDR,107.187.255.178/32,Reject
-IP-CIDR,108.171.248.234/32,Reject
-DOMAIN-SUFFIX,10b883b3d61d.com,Reject
-DOMAIN-SUFFIX,10desires.com,Reject
-DOMAIN-SUFFIX,11.96131.com.cn,Reject
-DOMAIN-SUFFIX,11.golang8.com,Reject
-DOMAIN-SUFFIX,11.yiqig.com,Reject
-DOMAIN-SUFFIX,110380d053f716c4.com,Reject
-IP-CIDR,112.74.95.46/32,Reject
-DOMAIN-SUFFIX,1133.cc,Reject
-IP-CIDR,114.95.102.77/32,Reject
-DOMAIN-SUFFIX,114com.cc,Reject
-DOMAIN-SUFFIX,114so.cn,Reject
-IP-CIDR,115.238.246.181/32,Reject
-IP-CIDR,115.29.141.121/32,Reject
-IP-CIDR,116.55.227.242/32,Reject
-IP-CIDR,117.25.133.209/32,Reject
-IP-CIDR,118.144.88.216/32,Reject
-IP-CIDR,118.24.199.184/32,Reject
-DOMAIN-SUFFIX,118aa629a7968e75e.com,Reject
-IP-CIDR,119.29.207.87/32,Reject
-IP-CIDR,119.29.80.185/32,Reject
-IP-CIDR,119.4.249.166/32,Reject
-DOMAIN-SUFFIX,11a581bbb5038e.com,Reject
-DOMAIN-SUFFIX,11ccda709b5cdf5.com,Reject
-DOMAIN-SUFFIX,12.cookcai.com,Reject
-IP-CIDR,120.27.34.156/32,Reject
-DOMAIN-SUFFIX,12086.net,Reject
-IP-CIDR,121.40.25.88/32,Reject
-DOMAIN-SUFFIX,1214bdk.xyz,Reject
-IP-CIDR,122.114.239.160/32,Reject
-IP-CIDR,122.227.254.195/32,Reject
-IP-CIDR,122.228.236.165/32,Reject
-DOMAIN-SUFFIX,1221dhb.xyz,Reject
-DOMAIN-SUFFIX,1221e236c3f8703.com,Reject
-DOMAIN-SUFFIX,1224.dxsbb.com,Reject
-IP-CIDR,123.59.150.56/32,Reject
-DOMAIN-SUFFIX,123456.asia,Reject
-DOMAIN-SUFFIX,1234xm.com,Reject
-DOMAIN-SUFFIX,12365chia.com,Reject
-DOMAIN-SUFFIX,123advertising.nl,Reject
-DOMAIN-SUFFIX,123hala.com,Reject
-IP-CIDR,124.232.160.178/32,Reject
-DOMAIN-SUFFIX,1298bab69bbc4.com,Reject
-DOMAIN-SUFFIX,12cdee5830.com,Reject
-DOMAIN-SUFFIX,12dc71b7cb820f2a.com,Reject
-DOMAIN-SUFFIX,12xlwin6a.net,Reject
-DOMAIN-SUFFIX,1314sss.top,Reject
-DOMAIN-SUFFIX,13190546cd1dec9bbdc.com,Reject
-IP-CIDR,134.73.54.252/32,Reject
-IP-CIDR,137.175.18.113/32,Reject
-DOMAIN-SUFFIX,138lm.com,Reject
-IP-CIDR,139.159.32.82/32,Reject
-IP-CIDR,139.196.166.21/32,Reject
-DOMAIN-SUFFIX,13hangpifa.com,Reject
-DOMAIN-SUFFIX,13wn.com,Reject
-IP-CIDR,146.148.85.61/32,Reject
-DOMAIN-SUFFIX,1494.top,Reject
-DOMAIN-SUFFIX,14nuzznszbdp.com,Reject
-DOMAIN-SUFFIX,153105c2f9564.com,Reject
-IP-CIDR,154.196.143.171/32,Reject
-IP-CIDR,154.83.113.19/32,Reject
-IP-CIDR,156.247.120.15/32,Reject
-IP-CIDR,156.247.120.31/32,Reject
-IP-CIDR,156.247.99.219/32,Reject
-IP-CIDR,156.249.32.50/32,Reject
-DOMAIN-SUFFIX,15fa37b45d.com,Reject
-IP-CIDR,162.209.213.66/32,Reject
-IP-CIDR,163.197.136.33/32,Reject
-IP-CIDR,163.197.167.236/32,Reject
-IP-CIDR,164.155.185.254/32,Reject
-DOMAIN-SUFFIX,16482f75cb.com,Reject
-DOMAIN-SUFFIX,16577716.com,Reject
-DOMAIN-SUFFIX,165a7c15380874ef3.com,Reject
-IP-CIDR,167.206.10.148/32,Reject
-DOMAIN-SUFFIX,1680go.com,Reject
-DOMAIN-SUFFIX,168ad.cc,Reject
-DOMAIN-SUFFIX,168xiazai.com,Reject
-DOMAIN-SUFFIX,168zwm.com,Reject
-DOMAIN-SUFFIX,169bj.cn,Reject
-DOMAIN-SUFFIX,16k6.com,Reject
-DOMAIN-SUFFIX,17.huanqiu.com,Reject
-DOMAIN-SUFFIX,170yy.com,Reject
-DOMAIN-SUFFIX,1711811.com,Reject
-IP-CIDR,172.120.35.94/32,Reject
-IP-CIDR,172.247.15.58/32,Reject
-IP-CIDR,172.81.246.180/32,Reject
-IP-CIDR,174.123.15.43/32,Reject
-IP-CIDR,174.139.53.195/32,Reject
-DOMAIN-SUFFIX,1740f665a91b68.com,Reject
-DOMAIN-SUFFIX,175bar.com,Reject
-DOMAIN-SUFFIX,176um.com,Reject
-DOMAIN-SUFFIX,177o.com,Reject
-DOMAIN-SUFFIX,1784tli497ys.com,Reject
-DOMAIN-SUFFIX,178bx.cn,Reject
-DOMAIN-SUFFIX,178gg.com,Reject
-DOMAIN-SUFFIX,17leyi.com,Reject
-DOMAIN-SUFFIX,17tuozhai.com,Reject
-DOMAIN-SUFFIX,17un.co,Reject
-DOMAIN-SUFFIX,17ys.top,Reject
-IP-CIDR,180.76.171.28/32,Reject
-DOMAIN-SUFFIX,1818bobo.com,Reject
-IP-CIDR,182.92.81.104/32,Reject
-DOMAIN-SUFFIX,1888pro.com,Reject
-DOMAIN-SUFFIX,188xiaoba.net,Reject
-DOMAIN-SUFFIX,18dusun.com,Reject
-DOMAIN-SUFFIX,18tzx.com,Reject
-DOMAIN-SUFFIX,192b1a49d57.com,Reject
-IP-CIDR,194.36.101.178/32,Reject
-DOMAIN-SUFFIX,1955dcb2fee1a13.com,Reject
-DOMAIN-SUFFIX,196f25ce95a.com,Reject
-IP-CIDR,198.2.215.131/32,Reject
-DOMAIN-SUFFIX,1983c499735.com,Reject
-IP-CIDR,199.231.214.62/32,Reject
-DOMAIN-SUFFIX,1999019.com,Reject
-DOMAIN-SUFFIX,199zw.com,Reject
-DOMAIN-SUFFIX,19a782bc982.com,Reject
-DOMAIN-SUFFIX,19b45a16170729.com,Reject
-DOMAIN-SUFFIX,19beda38dc2ce42.com,Reject
-DOMAIN-SUFFIX,19d12dd9de1.com,Reject
-DOMAIN-SUFFIX,19shows.net,Reject
-DOMAIN-SUFFIX,1a7783db6c.com,Reject
-DOMAIN-SUFFIX,1ab5bb25e29d576.com,Reject
-DOMAIN-SUFFIX,1affmedia.com,Reject
-DOMAIN-SUFFIX,1aogoh1j81g3.com,Reject
-DOMAIN-SUFFIX,1b6a637cbe7bb65ac.com,Reject
-DOMAIN-SUFFIX,1bcde.com,Reject
-DOMAIN-SUFFIX,1ccbt.com,Reject
-DOMAIN-SUFFIX,1ced38bdc42b883.com,Reject
-DOMAIN-SUFFIX,1d1a.com,Reject
-DOMAIN-SUFFIX,1e310acae6aee.com,Reject
-DOMAIN-SUFFIX,1ex4oemg99mv.com,Reject
-DOMAIN-SUFFIX,1f58098dd54.com,Reject
-DOMAIN-SUFFIX,1f7de8569ea97f0614.com,Reject
-DOMAIN-SUFFIX,1han-rit-ten.com,Reject
-DOMAIN-SUFFIX,1hanritten.com,Reject
-DOMAIN-SUFFIX,1haosuo.com,Reject
-DOMAIN-SUFFIX,1i580.com,Reject
-DOMAIN-SUFFIX,1jsskipuf8sd.com,Reject
-DOMAIN-SUFFIX,1kmb.cn,Reject
-DOMAIN-SUFFIX,1kzh.com,Reject
-DOMAIN-SUFFIX,1l1.cc,Reject
-DOMAIN-SUFFIX,1lib.cn,Reject
-DOMAIN-SUFFIX,1p1eqpotato.com,Reject
-DOMAIN-SUFFIX,1pzskg.cn,Reject
-DOMAIN-SUFFIX,1q8h.cn,Reject
-DOMAIN-SUFFIX,1qwe3r.com,Reject
-DOMAIN-SUFFIX,1re.re,Reject
-DOMAIN-SUFFIX,1redira.com,Reject
-DOMAIN-SUFFIX,1rkcd8exld.monster,Reject
-DOMAIN-SUFFIX,1rm.xyz,Reject
-DOMAIN-SUFFIX,1st2nd.xyz,Reject
-DOMAIN-SUFFIX,1tlm.cn,Reject
-DOMAIN-SUFFIX,1ts03.top,Reject
-DOMAIN-SUFFIX,1uandun.com,Reject
-DOMAIN-SUFFIX,1uejo00npy.buzz,Reject
-DOMAIN-SUFFIX,1ulebzhsv7.buzz,Reject
-DOMAIN-SUFFIX,1x26q3.cn,Reject
-DOMAIN-SUFFIX,1x3x.com,Reject
-DOMAIN-SUFFIX,2.haoxue360.com,Reject
-DOMAIN-SUFFIX,2008xxx.com,Reject
-DOMAIN-SUFFIX,201071.com,Reject
+  - DOMAIN-SUFFIX,beacon.tingyun.com,Reject
+  - DOMAIN-SUFFIX,cmcore.com,Reject
+  - DOMAIN-SUFFIX,coremetrics.com,Reject
+  - DOMAIN-SUFFIX,irs01.com,Reject
+  - DOMAIN-SUFFIX,madmini.com,Reject
+  - DOMAIN-SUFFIX,optimizelyapis.com,Reject
+  - DOMAIN-SUFFIX,sitemeter.com,Reject
+  - DOMAIN-SUFFIX,wrating.com,Reject
+  - DOMAIN-SUFFIX,99click.com,Reject
+  - DOMAIN-SUFFIX,acs86.com,Reject
+  - DOMAIN-SUFFIX,adchina.com,Reject
+  - DOMAIN-SUFFIX,adcome.cn,Reject
+  - DOMAIN-SUFFIX,adinfuse.com,Reject
+  - DOMAIN-SUFFIX,adsmogo.org,Reject
+  - DOMAIN-SUFFIX,aduu.cn,Reject
+  - DOMAIN-SUFFIX,advertising.com,Reject
+  - DOMAIN-SUFFIX,adview.cn,Reject
+  - DOMAIN-SUFFIX,adwhirl.com,Reject
+  - DOMAIN-SUFFIX,adwo.com,Reject
+  - DOMAIN-SUFFIX,adxmi.com,Reject
+  - DOMAIN-SUFFIX,adzerk.net,Reject
+  - DOMAIN-SUFFIX,allyes.com,Reject
+  - DOMAIN-SUFFIX,anquan.org,Reject
+  - DOMAIN-SUFFIX,appads.com,Reject
+  - DOMAIN-SUFFIX,applifier.com,Reject
+  - DOMAIN-SUFFIX,applovin.com,Reject
+  - DOMAIN-SUFFIX,chartboost.com,Reject
+  - DOMAIN-SUFFIX,clicktracks.com,Reject
+  - DOMAIN-SUFFIX,clickzs.com,Reject
+  - DOMAIN-SUFFIX,guohead.com,Reject
+  - DOMAIN-SUFFIX,guomob.com,Reject
+  - DOMAIN-SUFFIX,immob.cn,Reject
+  - DOMAIN-SUFFIX,inmobi.com,Reject
+  - DOMAIN-SUFFIX,intely.cn,Reject
+  - DOMAIN-SUFFIX,ipinyou.com,Reject
+  - DOMAIN-SUFFIX,localytics.com,Reject
+  - DOMAIN-SUFFIX,mediav.com,Reject
+  - DOMAIN-SUFFIX,mobclix.com,Reject
+  - DOMAIN-SUFFIX,optaim.com,Reject
+  - DOMAIN-SUFFIX,quantserve.com,Reject
+  - DOMAIN-SUFFIX,responsys.net,Reject
+  - DOMAIN-SUFFIX,serving-sys.com,Reject
+  - DOMAIN-SUFFIX,smartmad.com,Reject
+  - DOMAIN-SUFFIX,smartadserver.com,Reject
+  - DOMAIN-SUFFIX,sponsorpay.com,Reject
+  - DOMAIN-SUFFIX,switchadhub.com,Reject
+  - DOMAIN-SUFFIX,thoughtleadr.com,Reject
+  - DOMAIN-SUFFIX,unimhk.com,Reject
+  - DOMAIN-SUFFIX,unlitui.com,Reject
+  - DOMAIN-SUFFIX,uyunad.com,Reject
+  - DOMAIN-SUFFIX,vamaker.com,Reject
+  - DOMAIN-SUFFIX,waps.cn,Reject
+  - DOMAIN-SUFFIX,wiyun.com,Reject
+  - DOMAIN-SUFFIX,wooboo.com.cn,Reject
+  - DOMAIN-SUFFIX,wqmobile.com,Reject
+  - DOMAIN-SUFFIX,youmi.net,Reject
+  - DOMAIN-SUFFIX,zhiziyun.com,Reject
+  - DOMAIN-SUFFIX,segment.com,Reject
+  - DOMAIN-SUFFIX,ad.sina.com.cn,Reject
+  - DOMAIN-SUFFIX,adm.leju.sina.com.cn,Reject
+  - DOMAIN-SUFFIX,atm.sina.com,Reject
+  - DOMAIN-SUFFIX,dcads.sina.com.cn,Reject
+  - DOMAIN-SUFFIX,sax.sina.cn,Reject
+  - DOMAIN-SUFFIX,sax.sina.com.cn,Reject
+  - DOMAIN-SUFFIX,tjs.sjs.sinajs.cn,Reject
+  - DOMAIN-SUFFIX,c.biz.weibo.com,Reject
+  - DOMAIN-SUFFIX,game.weibo.com,Reject
+  - DOMAIN-SUFFIX,c.wcpt.biz.weibo.com,Reject
+  - DOMAIN-SUFFIX,s.alitui.weibo.com,Reject
+  - DOMAIN-SUFFIX,zc.biz.weibo.com,Reject
+  - DOMAIN-SUFFIX,zymo.mps.weibo.com,Reject
+  - DOMAIN-SUFFIX,game.weibo.cn,Reject
+  - DOMAIN-SUFFIX,m.game.weibo.cn,Reject
+  - DOMAIN-SUFFIX,promote.biz.weibo.cn,Reject
+  - DOMAIN-SUFFIX,adimg.mobile.sina.cn,Reject
+  - DOMAIN-SUFFIX,newspush.sinajs.cn,Reject
+  - mDOMAIN-SUFFIX,sdkapp.mobile.sina.cn,Reject
+  - DOMAIN-SUFFIX,sdkclick.mobile.sina.cn,Reject
+  - DOMAIN-SUFFIX,trends.mobile.sina.cn,Reject
+  - DOMAIN-SUFFIX,wbapp.mobile.sina.cn,Reject
+  - DOMAIN-SUFFIX,wbclick.mobile.sina.cn,Reject
+  - DOMAIN-SUFFIX,wbpctips.mobile.sina.cn,Reject
+  - DOMAIN-SUFFIX,ota.pay.mobile.sina.cn,Reject
+  - DOMAIN-SUFFIX,pay.mobile.sina.cn,Reject
+  - DOMAIN-SUFFIX,gorgon.youdao.com,Reject
+  - DOMAIN-SUFFIX,impservice.youdao.com,Reject
+  - DOMAIN-SUFFIX,ad.m.iqiyi.com,Reject
+  - DOMAIN-SUFFIX,afp.iqiyi.com,Reject
+  - DOMAIN-SUFFIX,api.cupid.iqiyi.com,Reject
+  - DOMAIN-SUFFIX,c.uaa.iqiyi.com,Reject
+  - DOMAIN-SUFFIX,cloudpush.iqiyi.com,Reject
+  - DOMAIN-SUFFIX,cm.passport.iqiyi.com,Reject
+  - DOMAIN-SUFFIX,emoticon.sns.iqiyi.com,Reject
+  - DOMAIN-SUFFIX,gamecenter.iqiyi.com,Reject
+  - DOMAIN-SUFFIX,hotchat-im.iqiyi.com,Reject
+  - DOMAIN-SUFFIX,ifacelog.iqiyi.com,Reject
+  - DOMAIN-SUFFIX,mbdlog.iqiyi.com,Reject
+  - DOMAIN-SUFFIX,meta.video.qiyi.com,Reject
+  - DOMAIN-SUFFIX,paopao.iqiyi.com,Reject
+  - DOMAIN-SUFFIX,policy.video.iqiyi.com,Reject
+  - DOMAIN-SUFFIX,rcd.iqiyi.com,Reject
+  - DOMAIN-SUFFIX,cmts.iqiyi.com,Reject
+  - DOMAIN-SUFFIX,data.video.qiyi.com,Reject
+  - DOMAIN-SUFFIX,msg.71.am,Reject
+  - DOMAIN-SUFFIX,msga.cupid.iqiyi.com,Reject
+  - IP-CIDR,101.227.14.80/29,Reject
+  - IP-CIDR,101.227.200.0/22,Reject
+  - IP-CIDR,112.13.64.0/22,Reject
+  - IP-CIDR,112.253.36.0/24,Reject
+  - IP-CIDR,117.139.16.0/22,Reject
+  - IP-CIDR,117.139.18.141/22,Reject
+  - IP-CIDR,119.188.13.32/29,Reject
+  - IP-CIDR,119.188.172.192/28,Reject
+  - IP-CIDR,119.188.173.0/27,Reject
+  - IP-CIDR,119.188.43.61/32,Reject
+  - IP-CIDR,123.125.116.0/22,Reject
+  - IP-CIDR,123.125.117.0/22,Reject
+  - IP-CIDR,123.130.122.128/28,Reject
+  - IP-CIDR,183.221.244.0/22,Reject
+  - IP-CIDR,183.221.247.189/22,Reject
+  - IP-CIDR,27.221.89.128/28,Reject
+  - IP-CIDR,60.211.171.128/29,Reject
+  - IP-CIDR,60.211.211.1/32,Reject
+  - DOMAIN-SUFFIX,im-x.jd.com,Reject
+  - DOMAIN-SUFFIX,ad.ipadview.com,Reject
+  - DOMAIN-SUFFIX,.maizhenai.cn,Reject
+  - DOMAIN-SUFFIX,.paomifen.cn,Reject
+  - DOMAIN-SUFFIX,.songlaoban.cn,Reject
+  - DOMAIN-SUFFIX,.09mk.cn,Reject
+  - DOMAIN-SUFFIX,.hepengshan.cn,Reject
+  - DOMAIN-SUFFIX,.epsilon.com,Reject
+  - DOMAIN-SUFFIX,.storygize.net,Reject
+  - DOMAIN-SUFFIX,.connexity.net,Reject
+  - DOMAIN-SUFFIX,.liadm.com,Reject
+  - DOMAIN-SUFFIX,.agkn.com,Reject
+  - DOMAIN-SUFFIX,.exelator.com,Reject
+  - DOMAIN-SUFFIX,dualstack.adsame-1421766300.ap-southeast-1.elb.amazonaws.com,Reject
+  - DOMAIN-SUFFIX,.amaoshe.cn,Reject
+  - DOMAIN-SUFFIX,.yeshoutuan.cn,Reject
+  - DOMAIN-SUFFIX,.muxq8.cn,Reject
+  - DOMAIN-SUFFIX,.huanshawang.cn,Reject
+  - DOMAIN-SUFFIX,.v85968.cn,Reject
+  - DOMAIN-SUFFIX,taboola.com,Reject
+  - DOMAIN-SUFFIX,trc.taboola.com,Reject
+  - DOMAIN-SUFFIX,tuisnake.com,Reject
+  - DOMAIN-SUFFIX,.duiba.com.cn,Reject
+  - DOMAIN-SUFFIX,.dui88.com,Reject
+  - DOMAIN-SUFFIX,location.ximalaya.com,Reject
+  - DOMAIN-SUFFIX,adse.ximalaya.com,Reject
+  - DOMAIN-SUFFIX,xdcs-collector.ximalaya.com,Reject
+  - DOMAIN-SUFFIX,.inmobi.cn,Reject
+  - DOMAIN-SUFFIX,.criteo.com,Reject
+  - DOMAIN-SUFFIX,adx.hupu.com,Reject
+  - DOMAIN-SUFFIX,kikibt8.com,Reject
+  - DOMAIN-SUFFIX,kikibt8.xyz,Reject
+  
+  # adblock rules refresh time: 2021-03-29 02:33:15
+  - DOMAIN-SUFFIX,00-gov.cn,Reject
+  - DOMAIN-SUFFIX,000dn.com,Reject
+  - DOMAIN-SUFFIX,0024aaaa.com,Reject
+  - DOMAIN-SUFFIX,003store.com,Reject
+  - DOMAIN-SUFFIX,006a039c957c142bb.com,Reject
+  - DOMAIN-SUFFIX,00880808.com,Reject
+  - DOMAIN-SUFFIX,008844.cc,Reject
+  - DOMAIN-SUFFIX,00aaa2d81c1d174.com,Reject
+  - DOMAIN-SUFFIX,00ae8b5a9c1d597.com,Reject
+  - DOMAIN-SUFFIX,00oo00.com,Reject
+  - DOMAIN-SUFFIX,012469af389a1d1246d.com,Reject
+  - DOMAIN-SUFFIX,0127538a552.com,Reject
+  - DOMAIN-SUFFIX,01dbf3a452b6.com,Reject
+  - DOMAIN-SUFFIX,01fen.com,Reject
+  - DOMAIN-SUFFIX,0217qpineuxbcdhopswkvf.xyz,Reject
+  - DOMAIN-SUFFIX,0224fqpowiuxybnmvdfghj.xyz,Reject
+  - DOMAIN-SUFFIX,022aifang.com,Reject
+  - DOMAIN-SUFFIX,025suyu.com,Reject
+  - DOMAIN-SUFFIX,0265331.com,Reject
+  - DOMAIN-SUFFIX,027whht.com,Reject
+  - DOMAIN-SUFFIX,02aa19117f396e9.com,Reject
+  - DOMAIN-SUFFIX,02b5da94a2bd4aea.com,Reject
+  - DOMAIN-SUFFIX,0302woeuxcbrnxcvsdfghu.xyz,Reject
+  - DOMAIN-SUFFIX,0309fuweopermncvbnazdf.xyz,Reject
+  - DOMAIN-SUFFIX,0316dieroxiemzfjwmapk.xyz,Reject
+  - DOMAIN-SUFFIX,0323wqpioutyuencsamxsd.xyz,Reject
+  - DOMAIN-SUFFIX,0330vsdgdwer.xyz,Reject
+  - DOMAIN-SUFFIX,0351dvd.cn,Reject
+  - DOMAIN-SUFFIX,039ad0897e6da.com,Reject
+  - DOMAIN-SUFFIX,0413fsiuhwem.xyz,Reject
+  - DOMAIN-SUFFIX,0420zvnmljgfdsa.xyz,Reject
+  - DOMAIN-SUFFIX,0451106.com,Reject
+  - DOMAIN-SUFFIX,048d36793b8.com,Reject
+  - DOMAIN-SUFFIX,04zl.cn,Reject
+  - DOMAIN-SUFFIX,050y9lhe8p.com,Reject
+  - DOMAIN-SUFFIX,0511qsfhknvz.xyz,Reject
+  - DOMAIN-SUFFIX,0516bm.com,Reject
+  - DOMAIN-SUFFIX,0517kongyaji.com,Reject
+  - DOMAIN-SUFFIX,0518dfgwert.xyz,Reject
+  - DOMAIN-SUFFIX,0525pweoruxnj.xyz,Reject
+  - DOMAIN-SUFFIX,0530hz.cn,Reject
+  - DOMAIN-SUFFIX,0531kt.com,Reject
+  - DOMAIN-SUFFIX,0551zgz.com,Reject
+  - DOMAIN-SUFFIX,0577renliu.net.cn,Reject
+  - DOMAIN-SUFFIX,0592weixin.com,Reject
+  - DOMAIN-SUFFIX,059e025e7484.com,Reject
+  - DOMAIN-SUFFIX,05ee3a24ed11df058c8.com,Reject
+  - DOMAIN-SUFFIX,05qwmtwxa3ev.com,Reject
+  - DOMAIN-SUFFIX,05xz0h2xo799.com,Reject
+  - DOMAIN-SUFFIX,0601chruopjsm.xyz,Reject
+  - DOMAIN-SUFFIX,0615nxbsho.xyz,Reject
+  - DOMAIN-SUFFIX,0629ohfsx.xyz,Reject
+  - DOMAIN-SUFFIX,06dd0894cce50c.com,Reject
+  - DOMAIN-SUFFIX,06f09b1008ae993a5a.com,Reject
+  - DOMAIN-SUFFIX,0706hjkv.xyz,Reject
+  - DOMAIN-SUFFIX,0713bzksl.xyz,Reject
+  - DOMAIN-SUFFIX,0727vjdl.xyz,Reject
+  - DOMAIN-SUFFIX,0728w.cn,Reject
+  - DOMAIN-SUFFIX,073c0cec65916314a.com,Reject
+  - DOMAIN-SUFFIX,0755man.cn,Reject
+  - DOMAIN-SUFFIX,0796gou.com,Reject
+  - DOMAIN-SUFFIX,0798ls.com,Reject
+  - DOMAIN-SUFFIX,07aa0353cc.com,Reject
+  - DOMAIN-SUFFIX,07fe665dd33f.com,Reject
+  - DOMAIN-SUFFIX,080644.com,Reject
+  - DOMAIN-SUFFIX,0817zfbj.xyz,Reject
+  - DOMAIN-SUFFIX,0824xfh.xyz,Reject
+  - DOMAIN-SUFFIX,0851ok.com,Reject
+  - DOMAIN-SUFFIX,0898hhh.com,Reject
+  - DOMAIN-SUFFIX,0921vch.xyz,Reject
+  - DOMAIN-SUFFIX,0926a687679d337e9d.com,Reject
+  - DOMAIN-SUFFIX,0928vld.xyz,Reject
+  - DOMAIN-SUFFIX,0937jyg.com,Reject
+  - DOMAIN-SUFFIX,0956228a2df97a.com,Reject
+  - DOMAIN-SUFFIX,0a6efd24b565c.com,Reject
+  - DOMAIN-SUFFIX,0b19222804.com,Reject
+  - DOMAIN-SUFFIX,0b2qv7.cn,Reject
+  - DOMAIN-SUFFIX,0b9d84d93f1b.com,Reject
+  - DOMAIN-SUFFIX,0bc.top,Reject
+  - DOMAIN-SUFFIX,0c12b89c3738.com,Reject
+  - DOMAIN-SUFFIX,0cf40a2064ce2.com,Reject
+  - DOMAIN-SUFFIX,0d20bff8143.com,Reject
+  - DOMAIN-SUFFIX,0dbcf515975d.com,Reject
+  - DOMAIN-SUFFIX,0dc3c6535c5.com,Reject
+  - DOMAIN-SUFFIX,0e6fc55ed3d4c2c2ba0.com,Reject
+  - DOMAIN-SUFFIX,0f461325bf56c3e1b9.com,Reject
+  - DOMAIN-SUFFIX,0gw7e6s3wrao9y3q.pro,Reject
+  - DOMAIN-SUFFIX,0h6djpk8fn.com,Reject
+  - DOMAIN-SUFFIX,0ij3tm.com,Reject
+  - DOMAIN-SUFFIX,0klxjejyxak3.com,Reject
+  - DOMAIN-SUFFIX,0mr.cc,Reject
+  - DOMAIN-SUFFIX,0oaqgsk54hm5.com,Reject
+  - DOMAIN-SUFFIX,0redirb.com,Reject
+  - DOMAIN-SUFFIX,0s9dxlr07huu.com,Reject
+  - DOMAIN-SUFFIX,0sywjs4r1x.com,Reject
+  - DOMAIN-SUFFIX,0x01n2ptpuz3.com,Reject
+  - DOMAIN-SUFFIX,0xxd.com,Reject
+  - DOMAIN-SUFFIX,1-m.xyz,Reject
+  - DOMAIN-SUFFIX,1-vr.xyz,Reject
+  - DOMAIN-SUFFIX,1.01fy.cn,Reject
+  - DOMAIN-SUFFIX,1.07swz.com,Reject
+  - DOMAIN-SUFFIX,1.1010pic.com,Reject
+  - DOMAIN-SUFFIX,1.11467.com,Reject
+  - DOMAIN-SUFFIX,1.15lu.com,Reject
+  - DOMAIN-SUFFIX,1.201980.com,Reject
+  - IP-CIDR,1.3.0.10/32,Reject
+  - DOMAIN-SUFFIX,1.32xp.com,Reject
+  - DOMAIN-SUFFIX,1.5000yan.com,Reject
+  - DOMAIN-SUFFIX,1.51sxue.cn,Reject
+  - DOMAIN-SUFFIX,1.66law.cn,Reject
+  - DOMAIN-SUFFIX,1.800400.net,Reject
+  - DOMAIN-SUFFIX,1.92caijing.com,Reject
+  - DOMAIN-SUFFIX,1.ajiyuming.com,Reject
+  - DOMAIN-SUFFIX,1.arpun.com,Reject
+  - DOMAIN-SUFFIX,1.bh5.com.cn,Reject
+  - DOMAIN-SUFFIX,1.cjcp.cn,Reject
+  - DOMAIN-SUFFIX,1.codesdq.com,Reject
+  - DOMAIN-SUFFIX,1.codezh.com,Reject
+  - DOMAIN-SUFFIX,1.feihua.com,Reject
+  - DOMAIN-SUFFIX,1.feihua.net.cn,Reject
+  - DOMAIN-SUFFIX,1.glook.cn,Reject
+  - DOMAIN-SUFFIX,1.hao123.com,Reject
+  - DOMAIN-SUFFIX,1.hnyouneng.com,Reject
+  - DOMAIN-SUFFIX,1.i999d.cn,Reject
+  - DOMAIN-SUFFIX,1.idc100.com,Reject
+  - DOMAIN-SUFFIX,1.ideng.com,Reject
+  - DOMAIN-SUFFIX,1.isanxia.com,Reject
+  - DOMAIN-SUFFIX,1.jeasyui.net,Reject
+  - DOMAIN-SUFFIX,1.jiqie.cn,Reject
+  - DOMAIN-SUFFIX,1.kuaidiwo.cn,Reject
+  - DOMAIN-SUFFIX,1.lishibu.com,Reject
+  - DOMAIN-SUFFIX,1.lvshi567.com,Reject
+  - DOMAIN-SUFFIX,1.mgff.com,Reject
+  - DOMAIN-SUFFIX,1.mm100.com,Reject
+  - DOMAIN-SUFFIX,1.pncdn.cn,Reject
+  - DOMAIN-SUFFIX,1.qjhm.net,Reject
+  - DOMAIN-SUFFIX,1.rr95.com,Reject
+  - DOMAIN-SUFFIX,1.sj33.net,Reject
+  - DOMAIN-SUFFIX,1.soufy.cn,Reject
+  - DOMAIN-SUFFIX,1.tecbbs.com,Reject
+  - DOMAIN-SUFFIX,1.ttxs123.net,Reject
+  - DOMAIN-SUFFIX,1.uc129.com,Reject
+  - DOMAIN-SUFFIX,1.ufc123.com,Reject
+  - DOMAIN-SUFFIX,1.v-x.com.cn,Reject
+  - DOMAIN-SUFFIX,1.vsimg.com,Reject
+  - DOMAIN-SUFFIX,1.wenzhangba.cn,Reject
+  - DOMAIN-SUFFIX,1.xilu.com,Reject
+  - DOMAIN-SUFFIX,1.xuexi.la,Reject
+  - DOMAIN-SUFFIX,1.yac8.net,Reject
+  - DOMAIN-SUFFIX,1.yuexw.com,Reject
+  - DOMAIN-SUFFIX,1.yxzw.com.cn,Reject
+  - DOMAIN-SUFFIX,1.zhev.com.cn,Reject
+  - DOMAIN-SUFFIX,1.zhuangxiu567.com,Reject
+  - DOMAIN-SUFFIX,1.zou114.com,Reject
+  - DOMAIN-SUFFIX,1.zuowenjun.com,Reject
+  - DOMAIN-SUFFIX,1.zw3e.com,Reject
+  - DOMAIN-SUFFIX,100.admin5.com,Reject
+  - DOMAIN-SUFFIX,100.pncdn.cn,Reject
+  - DOMAIN-SUFFIX,1000dy.com,Reject
+  - DOMAIN-SUFFIX,1002.men,Reject
+  - DOMAIN-SUFFIX,1005fdh.xyz,Reject
+  - DOMAIN-SUFFIX,100fenlm.com,Reject
+  - DOMAIN-SUFFIX,1017.cn,Reject
+  - IP-CIDR,103.249.254.113/32,Reject
+  - IP-CIDR,103.49.209.27/32,Reject
+  - IP-CIDR,103.75.47.19/32,Reject
+  - IP-CIDR,104.195.62.12/32,Reject
+  - IP-CIDR,104.197.140.120/32,Reject
+  - IP-CIDR,104.198.198.188/32,Reject
+  - IP-CIDR,104.201.20.196/32,Reject
+  - IP-CIDR,104.203.214.3/32,Reject
+  - IP-CIDR,104.203.72.254/32,Reject
+  - IP-CIDR,104.233.154.134/32,Reject
+  - IP-CIDR,104.233.177.93/32,Reject
+  - IP-CIDR,104.233.203.164/32,Reject
+  - IP-CIDR,104.237.67.78/32,Reject
+  - DOMAIN-SUFFIX,104610.com,Reject
+  - IP-CIDR,106.187.95.251/32,Reject
+  - IP-CIDR,107.172.176.197/32,Reject
+  - IP-CIDR,107.183.137.18/32,Reject
+  - IP-CIDR,107.187.122.172/32,Reject
+  - IP-CIDR,107.187.255.178/32,Reject
+  - IP-CIDR,108.171.248.234/32,Reject
+  - DOMAIN-SUFFIX,10b883b3d61d.com,Reject
+  - DOMAIN-SUFFIX,10desires.com,Reject
+  - DOMAIN-SUFFIX,11.96131.com.cn,Reject
+  - DOMAIN-SUFFIX,11.golang8.com,Reject
+  - DOMAIN-SUFFIX,11.yiqig.com,Reject
+  - DOMAIN-SUFFIX,110380d053f716c4.com,Reject
+  - IP-CIDR,112.74.95.46/32,Reject
+  - DOMAIN-SUFFIX,1133.cc,Reject
+  - IP-CIDR,114.95.102.77/32,Reject
+  - DOMAIN-SUFFIX,114com.cc,Reject
+  - DOMAIN-SUFFIX,114so.cn,Reject
+  - IP-CIDR,115.238.246.181/32,Reject
+  - IP-CIDR,115.29.141.121/32,Reject
+  - IP-CIDR,116.55.227.242/32,Reject
+  - IP-CIDR,117.25.133.209/32,Reject
+  - IP-CIDR,118.144.88.216/32,Reject
+  - IP-CIDR,118.24.199.184/32,Reject
+  - DOMAIN-SUFFIX,118aa629a7968e75e.com,Reject
+  - IP-CIDR,119.29.207.87/32,Reject
+  - IP-CIDR,119.29.80.185/32,Reject
+  - IP-CIDR,119.4.249.166/32,Reject
+  - DOMAIN-SUFFIX,11a581bbb5038e.com,Reject
+  - DOMAIN-SUFFIX,11ccda709b5cdf5.com,Reject
+  - DOMAIN-SUFFIX,12.cookcai.com,Reject
+  - IP-CIDR,120.27.34.156/32,Reject
+  - DOMAIN-SUFFIX,12086.net,Reject
+  - IP-CIDR,121.40.25.88/32,Reject
+  - DOMAIN-SUFFIX,1214bdk.xyz,Reject
+  - IP-CIDR,122.114.239.160/32,Reject
+  - IP-CIDR,122.227.254.195/32,Reject
+  - IP-CIDR,122.228.236.165/32,Reject
+  - DOMAIN-SUFFIX,1221dhb.xyz,Reject
+  - DOMAIN-SUFFIX,1221e236c3f8703.com,Reject
+  - DOMAIN-SUFFIX,1224.dxsbb.com,Reject
+  - IP-CIDR,123.59.150.56/32,Reject
+  - DOMAIN-SUFFIX,123456.asia,Reject
+  - DOMAIN-SUFFIX,1234xm.com,Reject
+  - DOMAIN-SUFFIX,12365chia.com,Reject
+  - DOMAIN-SUFFIX,123advertising.nl,Reject
+  - DOMAIN-SUFFIX,123hala.com,Reject
+  - IP-CIDR,124.232.160.178/32,Reject
+  - DOMAIN-SUFFIX,1298bab69bbc4.com,Reject
+  - DOMAIN-SUFFIX,12cdee5830.com,Reject
+  - DOMAIN-SUFFIX,12dc71b7cb820f2a.com,Reject
+  - DOMAIN-SUFFIX,12xlwin6a.net,Reject
+  - DOMAIN-SUFFIX,1314sss.top,Reject
+  - DOMAIN-SUFFIX,13190546cd1dec9bbdc.com,Reject
+  - IP-CIDR,134.73.54.252/32,Reject
+  - IP-CIDR,137.175.18.113/32,Reject
+  - DOMAIN-SUFFIX,138lm.com,Reject
+  - IP-CIDR,139.159.32.82/32,Reject
+  - IP-CIDR,139.196.166.21/32,Reject
+  - DOMAIN-SUFFIX,13hangpifa.com,Reject
+  - DOMAIN-SUFFIX,13wn.com,Reject
+  - IP-CIDR,146.148.85.61/32,Reject
+  - DOMAIN-SUFFIX,1494.top,Reject
+  - DOMAIN-SUFFIX,14nuzznszbdp.com,Reject
+  - DOMAIN-SUFFIX,153105c2f9564.com,Reject
+  - IP-CIDR,154.196.143.171/32,Reject
+  - IP-CIDR,154.83.113.19/32,Reject
+  - IP-CIDR,156.247.120.15/32,Reject
+  - IP-CIDR,156.247.120.31/32,Reject
+  - IP-CIDR,156.247.99.219/32,Reject
+  - IP-CIDR,156.249.32.50/32,Reject
+  - DOMAIN-SUFFIX,15fa37b45d.com,Reject
+  - IP-CIDR,162.209.213.66/32,Reject
+  - IP-CIDR,163.197.136.33/32,Reject
+  - IP-CIDR,163.197.167.236/32,Reject
+  - IP-CIDR,164.155.185.254/32,Reject
+  - DOMAIN-SUFFIX,16482f75cb.com,Reject
+  - DOMAIN-SUFFIX,16577716.com,Reject
+  - DOMAIN-SUFFIX,165a7c15380874ef3.com,Reject
+  - IP-CIDR,167.206.10.148/32,Reject
+  - DOMAIN-SUFFIX,1680go.com,Reject
+  - DOMAIN-SUFFIX,168ad.cc,Reject
+  - DOMAIN-SUFFIX,168xiazai.com,Reject
+  - DOMAIN-SUFFIX,168zwm.com,Reject
+  - DOMAIN-SUFFIX,169bj.cn,Reject
+  - DOMAIN-SUFFIX,16k6.com,Reject
+  - DOMAIN-SUFFIX,17.huanqiu.com,Reject
+  - DOMAIN-SUFFIX,170yy.com,Reject
+  - DOMAIN-SUFFIX,1711811.com,Reject
+  - IP-CIDR,172.120.35.94/32,Reject
+  - IP-CIDR,172.247.15.58/32,Reject
+  - IP-CIDR,172.81.246.180/32,Reject
+  - IP-CIDR,174.123.15.43/32,Reject
+  - DOMAIN-SUFFIX,1740f665a91b68.com,Reject
+  - DOMAIN-SUFFIX,175bar.com,Reject
+  - DOMAIN-SUFFIX,176um.com,Reject
+  - DOMAIN-SUFFIX,177o.com,Reject
+  - DOMAIN-SUFFIX,1784tli497ys.com,Reject
+  - DOMAIN-SUFFIX,178bx.cn,Reject
+  - DOMAIN-SUFFIX,178gg.com,Reject
+  - DOMAIN-SUFFIX,17leyi.com,Reject
+  - DOMAIN-SUFFIX,17tuozhai.com,Reject
+  - DOMAIN-SUFFIX,17un.co,Reject
+  - DOMAIN-SUFFIX,17ys.top,Reject
+  - IP-CIDR,180.76.171.28/32,Reject
+  - DOMAIN-SUFFIX,1818bobo.com,Reject
+  - IP-CIDR,182.92.81.104/32,Reject
+  - DOMAIN-SUFFIX,1888pro.com,Reject
+  - DOMAIN-SUFFIX,188xiaoba.net,Reject
+  - DOMAIN-SUFFIX,18dusun.com,Reject
+  - DOMAIN-SUFFIX,18tzx.com,Reject
+  - DOMAIN-SUFFIX,192b1a49d57.com,Reject
+  - IP-CIDR,194.36.101.178/32,Reject
+  - DOMAIN-SUFFIX,1955dcb2fee1a13.com,Reject
+  - DOMAIN-SUFFIX,196f25ce95a.com,Reject
+  - IP-CIDR,198.2.215.131/32,Reject
+  - DOMAIN-SUFFIX,1983c499735.com,Reject
+  - IP-CIDR,199.231.214.62/32,Reject
+  - DOMAIN-SUFFIX,1999019.com,Reject
+  - DOMAIN-SUFFIX,199zw.com,Reject
+  - DOMAIN-SUFFIX,19a782bc982.com,Reject
+  - DOMAIN-SUFFIX,19b45a16170729.com,Reject
+  - DOMAIN-SUFFIX,19beda38dc2ce42.com,Reject
+  - DOMAIN-SUFFIX,19d12dd9de1.com,Reject
+  - DOMAIN-SUFFIX,19shows.net,Reject
+  - DOMAIN-SUFFIX,1a7783db6c.com,Reject
+  - DOMAIN-SUFFIX,1ab5bb25e29d576.com,Reject
+  - DOMAIN-SUFFIX,1affmedia.com,Reject
+  - DOMAIN-SUFFIX,1aogoh1j81g3.com,Reject
+  - DOMAIN-SUFFIX,1b6a637cbe7bb65ac.com,Reject
+  - DOMAIN-SUFFIX,1bcde.com,Reject
+  - DOMAIN-SUFFIX,1ccbt.com,Reject
+  - DOMAIN-SUFFIX,1ced38bdc42b883.com,Reject
+  - DOMAIN-SUFFIX,1d1a.com,Reject
+  - DOMAIN-SUFFIX,1e310acae6aee.com,Reject
+  - DOMAIN-SUFFIX,1ex4oemg99mv.com,Reject
+  - DOMAIN-SUFFIX,1f58098dd54.com,Reject
+  - DOMAIN-SUFFIX,1f7de8569ea97f0614.com,Reject
+  - DOMAIN-SUFFIX,1han-rit-ten.com,Reject
+  - DOMAIN-SUFFIX,1hanritten.com,Reject
+  - DOMAIN-SUFFIX,1haosuo.com,Reject
+  - DOMAIN-SUFFIX,1i580.com,Reject
+  - DOMAIN-SUFFIX,1jsskipuf8sd.com,Reject
+  - DOMAIN-SUFFIX,1kmb.cn,Reject
+  - DOMAIN-SUFFIX,1kzh.com,Reject
+  - DOMAIN-SUFFIX,1l1.cc,Reject
+- DOMAIN-SUFFIX,1lib.cn,Reject
+- DOMAIN-SUFFIX,1p1eqpotato.com,Reject
+- DOMAIN-SUFFIX,1pzskg.cn,Reject
+- DOMAIN-SUFFIX,1q8h.cn,Reject
+- DOMAIN-SUFFIX,1qwe3r.com,Reject
+- DOMAIN-SUFFIX,1re.re,Reject
+- DOMAIN-SUFFIX,1redira.com,Reject
+- DOMAIN-SUFFIX,1rkcd8exld.monster,Reject
+- DOMAIN-SUFFIX,1rm.xyz,Reject
+- DOMAIN-SUFFIX,1st2nd.xyz,Reject
+- DOMAIN-SUFFIX,1tlm.cn,Reject
+- DOMAIN-SUFFIX,1ts03.top,Reject
+- DOMAIN-SUFFIX,1uandun.com,Reject
+- DOMAIN-SUFFIX,1uejo00npy.buzz,Reject
+- DOMAIN-SUFFIX,1ulebzhsv7.buzz,Reject
+- DOMAIN-SUFFIX,1x26q3.cn,Reject
+- DOMAIN-SUFFIX,1x3x.com,Reject
+- DOMAIN-SUFFIX,2.haoxue360.com,Reject
+- DOMAIN-SUFFIX,2008xxx.com,Reject
+- DOMAIN-SUFFIX,201071.com,Reject
 DOMAIN-SUFFIX,2013sh.com,Reject
 DOMAIN-SUFFIX,2016.bkill.net,Reject
 DOMAIN-SUFFIX,2018haoyunlai.com,Reject
@@ -21836,9 +21835,3 @@ IP-CIDR,149.154.168.0/22,Proxy
 IP-CIDR,149.154.172.0/22,Proxy
 IP-CIDR,74.125.23.127/32,Proxy
 DOMAIN-SUFFIX,news.ycombinator.com,Proxy
-
-
-FINAL,direct
-
-[URL Rewrite]
-^http://(www.)?google.cn https://www.google.com 302
