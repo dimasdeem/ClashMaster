@@ -102,7 +102,7 @@ payload:
   - DOMAIN-SUFFIX,promote.biz.weibo.cn,Reject
   - DOMAIN-SUFFIX,adimg.mobile.sina.cn,Reject
   - DOMAIN-SUFFIX,newspush.sinajs.cn,Reject
-  - mDOMAIN-SUFFIX,sdkapp.mobile.sina.cn,Reject
+  - DOMAIN-SUFFIX,sdkapp.mobile.sina.cn,Reject
   - DOMAIN-SUFFIX,sdkclick.mobile.sina.cn,Reject
   - DOMAIN-SUFFIX,trends.mobile.sina.cn,Reject
   - DOMAIN-SUFFIX,wbapp.mobile.sina.cn,Reject
